@@ -7,7 +7,7 @@
      O visitante é distribuído entre os números e fica fixo no mesmo
      atendente nas próximas visitas.
      --------------------------------------------------------------------- */
-  var WHATSAPP = ['5516997023340', '5516997253250'];
+  var WHATSAPP = ['5511937083389', '5516997253250'];
   var SAUDACAO = 'Olá! Vim pelo site e queria saber mais sobre o SYSVETMAX.';
 
   function numeroDoVisitante() {
