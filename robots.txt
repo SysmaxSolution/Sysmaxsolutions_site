@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /legacy
+Disallow: /legacy.html
+Disallow: /backup/
+
+Sitemap: https://sysmaxsolutions.com/sitemap.xml

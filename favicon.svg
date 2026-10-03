@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="Sysmax Software">
+  <rect width="100" height="100" rx="23" fill="#0D9488"/>
+  <path d="M14 58 H32 L41 39 L52 71 L61 47 L69 58 H86"
+        fill="none" stroke="#FFFFFF" stroke-width="10"
+        stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="SYSVETMAX">
+  <rect width="100" height="100" rx="23" fill="#0D9488"/>
+  <g fill="#FFFFFF">
+    <ellipse cx="29" cy="37" rx="8.5" ry="11" transform="rotate(-16 29 37)"/>
+    <ellipse cx="44" cy="29" rx="8.5" ry="11.5" transform="rotate(-5 44 29)"/>
+    <ellipse cx="59" cy="29" rx="8.5" ry="11.5" transform="rotate(5 59 29)"/>
+    <ellipse cx="74" cy="37" rx="8.5" ry="11" transform="rotate(16 74 37)"/>
+    <path d="M51.5 45c-13.5 0-23 9.6-23 20.8 0 8.3 7.4 13.2 23 13.2s23-4.9 23-13.2C74.5 54.6 65 45 51.5 45z"/>
+  </g>
+  <path d="M20 64 H38 L45 52 L54 76 L61 58 H84"
+        fill="none" stroke="#0D9488" stroke-width="7"
+        stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
