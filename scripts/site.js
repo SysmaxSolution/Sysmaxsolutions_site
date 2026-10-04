@@ -183,6 +183,50 @@
   });
   calcular();
 
+  /* --- gravações da rotina ---------------------------------------------
+     Tocam só quando estão na tela, nunca com som, e param se a pessoa pedir
+     ou se o sistema dela estiver configurado para reduzir animação.        */
+  var clipes = Array.prototype.slice.call(document.querySelectorAll('.clip video'))
+  var botaoClipes = document.getElementById('clips-toggle')
+
+  if (clipes.length) {
+    var reduz = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches
+    var pausado = reduz
+
+    function atualizarBotao() {
+      if (!botaoClipes) return
+      botaoClipes.textContent = pausado ? 'Tocar as gravações' : 'Pausar as gravações'
+      botaoClipes.setAttribute('aria-pressed', String(pausado))
+    }
+    atualizarBotao()
+
+    if ('IntersectionObserver' in window) {
+      var observador = new IntersectionObserver(function (entradas) {
+        entradas.forEach(function (e) {
+          var v = e.target
+          if (e.isIntersecting && !pausado) {
+            if (v.preload === 'none') v.preload = 'auto'
+            v.play().catch(function () {})
+          } else {
+            v.pause()
+          }
+        })
+      }, { threshold: 0.35 })
+      clipes.forEach(function (v) { observador.observe(v) })
+    }
+
+    if (botaoClipes) {
+      botaoClipes.addEventListener('click', function () {
+        pausado = !pausado
+        clipes.forEach(function (v) {
+          if (pausado) v.pause()
+          else { v.preload = 'auto'; v.play().catch(function () {}) }
+        })
+        atualizarBotao()
+      })
+    }
+  }
+
   /* --- ano do rodapé ---------------------------------------------------- */
   var ano = document.getElementById('ano');
   if (ano) ano.textContent = new Date().getFullYear();

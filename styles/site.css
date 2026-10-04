@@ -281,6 +281,15 @@ p { margin: 0; text-wrap: pretty; }
 .panel[data-active="true"] { display: grid; gap: 20px; }
 .panel__cap { display: grid; gap: 6px; max-width: 64ch; }
 
+/* --- gravações da rotina ------------------------------------------------ */
+.clips { display: grid; gap: var(--s5); }
+@media (min-width: 820px) { .clips { grid-template-columns: repeat(2, 1fr); } }
+.clip { margin: 0; display: grid; gap: var(--s3); }
+.clip .frame { box-shadow: var(--sh-md); }
+.clip video { width: 100%; height: auto; display: block; background: var(--sunken); }
+.clip figcaption { max-width: 38ch; }
+.clips__toggle { margin-top: var(--s5); }
+
 /* --- cartões ------------------------------------------------------------ */
 .grid { display: grid; gap: 18px; }
 @media (min-width: 720px)  { .grid--2 { grid-template-columns: repeat(2, 1fr); } }

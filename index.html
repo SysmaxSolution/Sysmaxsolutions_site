@@ -225,8 +225,47 @@
     </div>
   </section>
 
+  <!-- A ROTINA RODANDO -->
+  <section class="section section--sunken" id="rotina">
+    <div class="wrap">
+      <div class="head">
+        <h2 class="h2">A rotina rodando, não uma apresentação</h2>
+        <p class="body">Gravados direto do sistema, sem corte de edição. É o que a sua equipe vê na tela.</p>
+      </div>
+
+      <div class="clips">
+        <figure class="clip">
+          <div class="frame">
+            <video muted loop playsinline preload="none"
+                   poster="/assets/videos/recepcao-poster.webp"
+                   width="1120" height="700"
+                   aria-label="Gravação da tela de recepção com a fila de espera do dia">
+              <source src="/assets/videos/recepcao.webm" type="video/webm">
+            </video>
+          </div>
+          <figcaption class="small">A fila do dia na recepção, com o horário de chegada de cada pet.</figcaption>
+        </figure>
+
+        <figure class="clip">
+          <div class="frame">
+            <video muted loop playsinline preload="none"
+                   poster="/assets/videos/agenda-poster.webp"
+                   width="1120" height="700"
+                   aria-label="Gravação da agenda da clínica alternando entre mês, semana e dia">
+              <source src="/assets/videos/agenda.webm" type="video/webm">
+            </video>
+          </div>
+          <figcaption class="small">A agenda da clínica em mês, semana e dia — a mesma para a equipe inteira.</figcaption>
+        </figure>
+
+      </div>
+
+      <button class="btn btn--ghost clips__toggle" type="button" id="clips-toggle" aria-pressed="false">Pausar as gravações</button>
+    </div>
+  </section>
+
   <!-- PREÇO -->
-  <section class="section section--sunken" id="preco">
+  <section class="section" id="preco">
     <div class="wrap">
       <div class="head">
         <h2 class="h2">O preço é por módulo, não por pessoa logada</h2>
@@ -276,7 +315,7 @@
   </section>
 
   <!-- CALCULADORA -->
-  <section class="section" id="conta">
+  <section class="section section--sunken" id="conta">
     <div class="wrap">
       <div class="head">
         <h2 class="h2">Quanto tempo a sua equipe deixa de gastar digitando</h2>
