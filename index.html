@@ -27,9 +27,8 @@
 <meta name="twitter:description" content="Do check-in do pet ao fechamento do caixa. Comece grátis, sem prazo e sem cartão.">
 <meta name="twitter:image" content="https://sysmaxsolutions.com/og-image.png">
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;800&family=Spline+Sans+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="preload" as="font" type="font/woff2" href="/assets/fonts/hanken-grotesk-latin.woff2" crossorigin>
+<link rel="preload" as="font" type="font/woff2" href="/assets/fonts/spline-sans-mono-latin.woff2" crossorigin>
 <link rel="stylesheet" href="/styles/site.css">
 </head>
 <body>
@@ -45,10 +44,10 @@
 
     <nav class="nav" aria-label="Seções do site">
       <a href="#caminho">Como funciona</a>
-      <a href="#produto">Por dentro</a>
+      <a href="/modulos">Módulos</a>
+      <a href="/para">Para quem</a>
       <a href="#preco">Preço</a>
       <a href="#dados">Seus dados</a>
-      <a href="#duvidas">Dúvidas</a>
     </nav>
 
     <a class="btn btn--primary header-cta" href="https://sysvetmax.sysmaxsolutions.com" rel="noopener">Criar conta grátis</a>
@@ -61,7 +60,8 @@
   <div class="mobile-nav" id="menu-mobile" data-open="false">
     <ul>
       <li><a href="#caminho">Como funciona</a></li>
-      <li><a href="#produto">Por dentro</a></li>
+      <li><a href="/modulos">Módulos</a></li>
+      <li><a href="/para">Para quem</a></li>
       <li><a href="#preco">Preço</a></li>
       <li><a href="#dados">Seus dados</a></li>
       <li><a href="#duvidas">Dúvidas</a></li>
@@ -420,6 +420,20 @@
         </div>
       </div>
 
+      <!-- DEPOIMENTOS — nao publicar sem a frase e a autorizacao do cliente.
+           O que pedir esta em conteudo/DEPOIMENTOS.md. Para publicar: apagar
+           este comentario e preencher os dois cartoes.
+      <div class="depoimentos">
+        <figure class="depoimento">
+          <blockquote>FRASE DO CLIENTE, COMO ELE ESCREVEU.</blockquote>
+          <figcaption>
+            <img src="/assets/depoimentos/NOME.webp" alt="" width="44" height="44">
+            <span class="quem"><strong>Nome Completo</strong><span>Cargo — Clinica, Cidade/UF</span></span>
+          </figcaption>
+        </figure>
+      </div>
+      -->
+
       <div class="quote" style="margin-top:32px">
         <p>Se você não gostar, o plano gratuito continua funcionando e a sua base é devolvida em arquivo aberto quando você pedir. Não existe multa, carência nem período mínimo.</p>
         <p class="fine">É o nosso compromisso enquanto construímos reputação.</p>
@@ -505,9 +519,10 @@
       <div>
         <h4>SYSVETMAX</h4>
         <ul class="footer__links">
-          <li><a href="#caminho">Como funciona</a></li>
+          <li><a href="/modulos">Todos os módulos</a></li>
+          <li><a href="/para">Para o seu tipo de clínica</a></li>
           <li><a href="#produto">Telas do sistema</a></li>
-          <li><a href="#preco">Preço e módulos</a></li>
+          <li><a href="#preco">Preço</a></li>
           <li><a href="#dados">Seus dados</a></li>
           <li><a href="https://sysvetmax.sysmaxsolutions.com" rel="noopener">Entrar no sistema</a></li>
         </ul>
@@ -544,5 +559,8 @@
 </script>
 
 <script src="/scripts/site.js" defer></script>
+<!-- Medicao de audiencia da propria Vercel: sem cookie e sem dado pessoal,
+     entao nao exige aviso de cookies. Precisa estar ligada no painel do projeto. -->
+<script defer src="/_vercel/insights/script.js"></script>
 </body>
 </html>

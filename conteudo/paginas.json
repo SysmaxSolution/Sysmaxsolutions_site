@@ -1,0 +1,1039 @@
+[
+  {
+    "slug": "prontuario-eletronico",
+    "tituloPagina": "Prontuário eletrônico veterinário com ditado por voz",
+    "metaDescricao": "O médico veterinário dita e o prontuário escreve. Depois de fechado, só muda por adendo com nome e CRMV. O sistema guarda por 5 anos, como pede o CFMV.",
+    "h1": "Você dita, o prontuário escreve",
+    "lede": "O médico veterinário fala durante o atendimento e o texto aparece na ficha do pet. A consulta termina com o prontuário já pronto.",
+    "dor": "Hoje o atendimento acontece primeiro e o texto fica para depois. O pet está na mesa, o tutor faz perguntas, o telefone toca e o teclado espera. No fim do dia sobra uma pilha de fichas para preencher de memória. Quando chega a hora de escrever, já se perdeu o detalhe do exame físico. Aí o prontuário sai curto, com o essencial e nada mais. Se semanas depois o tutor volta com uma queixa parecida, falta justamente aquela linha que ninguém teve tempo de digitar. E quando alguém precisa corrigir um registro antigo, não há como mostrar o que foi escrito antes, quem mudou e quando.",
+    "comoFunciona": [
+      {
+        "titulo": "A ficha abre com o que já se sabe",
+        "texto": "O pet chega pela recepção e passa pela triagem. Quando o médico veterinário abre o atendimento, peso, temperatura e as consultas anteriores já estão na tela."
+      },
+      {
+        "titulo": "Você fala e o texto aparece",
+        "texto": "Toque no botão de voz e descreva o exame com o pet ainda na sua frente. O sistema escreve a sua fala no campo do prontuário."
+      },
+      {
+        "titulo": "Você lê antes de salvar",
+        "texto": "O texto aparece na tela para conferência. Você ajusta uma palavra, completa uma frase e segue o atendimento."
+      },
+      {
+        "titulo": "A inteligência artificial escreve, nunca opina",
+        "texto": "Ela só transforma a sua fala em texto organizado. Não sugere diagnóstico, não escolhe dose e não fecha conduta. Quem decide é o médico veterinário."
+      },
+      {
+        "titulo": "A receita sai do mesmo atendimento",
+        "texto": "Você prescreve ali mesmo. Se o medicamento é controlado, o sistema já emite no receituário azul, sem você ter que lembrar."
+      },
+      {
+        "titulo": "Fechou, travou",
+        "texto": "Ao finalizar, o prontuário fica travado. Precisa completar ou corrigir depois? Você escreve um adendo, que entra com data, seu nome e seu CRMV, abaixo do texto original."
+      }
+    ],
+    "oQueEstaPronto": [
+      "Ditado por voz no prontuário: o médico veterinário fala e o texto entra no campo certo, para conferir e salvar.",
+      "Prontuário travado depois de finalizado. Correção apenas por adendo datado, com o nome e o CRMV de quem escreveu.",
+      "Guarda de 5 anos imposta pelo próprio sistema, conforme a Resolução 1321/2020 do Conselho Federal de Medicina Veterinária (CFMV).",
+      "Receituário azul emitido automaticamente quando a prescrição tem medicamento controlado.",
+      "Em plano pago, a triagem exige peso e temperatura antes de o atendimento abrir, e os dois já chegam prontos no prontuário.",
+      "Cada clínica vê somente os dados dela, e todo acesso a dado de tutor fica registrado."
+    ],
+    "limites": "Não temos assinatura digital com certificado ICP-Brasil. O prontuário é identificado pelo médico veterinário que o fechou, com nome e CRMV gravados no registro. Também não existe ainda um botão para você baixar toda a sua base dentro do sistema: se pedir, devolvemos seus dados em arquivo aberto, e esse compromisso está escrito no contrato.",
+    "preco": "O prontuário está no plano gratuito, junto com recepção, cadastro de tutores e pets e gestão. Triagem, caixa e estoque entram a partir de qualquer plano pago, sem custo extra, porque aqui o preço é por módulo e não por pessoa logada.",
+    "faq": [
+      {
+        "pergunta": "O sistema dá o diagnóstico ou sugere o tratamento?",
+        "resposta": "Não. Ele escreve o que você falou e organiza o texto. Diagnóstico, dose e conduta são do médico veterinário, sempre. Essa é uma regra do produto, não uma etapa que ainda falta."
+      },
+      {
+        "pergunta": "Posso corrigir um prontuário depois de finalizar?",
+        "resposta": "Pode completar, não apagar. Você escreve um adendo e ele aparece abaixo do texto original, com data, seu nome e seu CRMV. Quem ler depois vê o que foi escrito primeiro e o que foi acrescentado."
+      },
+      {
+        "pergunta": "O ditado entende os termos da clínica veterinária?",
+        "resposta": "Na maior parte das vezes sim, e erra uma palavra de vez em quando. O texto aparece na tela antes de salvar, então a correção é na hora, com o pet ainda no consultório."
+      },
+      {
+        "pergunta": "Por quanto tempo o prontuário fica guardado?",
+        "resposta": "Cinco anos, no mínimo, e a trava é do próprio sistema: ninguém da clínica consegue excluir um prontuário dentro desse prazo. É o que pede a Resolução 1321/2020 do Conselho Federal de Medicina Veterinária (CFMV)."
+      },
+      {
+        "pergunta": "E o receituário de medicamento controlado?",
+        "resposta": "Sai do mesmo atendimento. Quando a prescrição tem substância controlada, o sistema emite no receituário azul e registra a saída no livro de controlados digital, separado por substância, pronto para imprimir."
+      }
+    ],
+    "ctaTexto": "O prontuário com ditado por voz está no plano gratuito. Crie a conta e dite o primeiro atendimento hoje.",
+    "tipo": "modulo",
+    "titulo": "Prontuário eletrônico veterinário"
+  },
+  {
+    "slug": "agenda-e-whatsapp",
+    "tituloPagina": "Agenda da clínica e avisos no WhatsApp",
+    "metaDescricao": "Agenda única para toda a equipe, com confirmação de horário e aviso de vacina pelo WhatsApp da clínica. A agenda está no plano gratuito. Veja os limites.",
+    "h1": "Agenda da clínica e avisos no WhatsApp",
+    "lede": "A equipe toda olha a mesma agenda: mês, semana e dia, com uma coluna por médico veterinário. E o tutor recebe a confirmação do horário e o aviso de vacina no WhatsApp da própria clínica.",
+    "dor": "Hoje a agenda costuma viver em três lugares ao mesmo tempo: o caderno da recepção, uma planilha e o WhatsApp no celular de quem atende. Na véspera, alguém senta e liga para os tutores um por um para confirmar. Quando a recepção está cheia, essa ligação fica para depois e o horário vazio só aparece no dia. Com a vacina é parecido: a data da próxima dose fica anotada na ficha e volta à tona quando o tutor lembra de perguntar. Não é falta de cuidado. É trabalho manual demais para o tamanho do dia.",
+    "comoFunciona": [
+      {
+        "titulo": "A recepção marca o horário",
+        "texto": "Abre a agenda no dia, escolhe o médico veterinário e digita o nome do tutor ou do pet. O cadastro que já existe aparece na hora, sem redigitar telefone e endereço."
+      },
+      {
+        "titulo": "Todo mundo vê a mesma agenda",
+        "texto": "A mesma tela em mês, semana e dia. Na visão de dia, cada profissional tem a sua coluna. Dá para enxergar quem está livre sem perguntar."
+      },
+      {
+        "titulo": "Horário bloqueado aparece bloqueado",
+        "texto": "Almoço, cirurgia, folga ou plantão fora da clínica: a equipe marca o bloqueio e aquele intervalo deixa de ser oferecido. Ninguém marca em cima."
+      },
+      {
+        "titulo": "A confirmação sai sozinha na véspera",
+        "texto": "Cerca de 24 horas antes, a mensagem de confirmação sai pelo WhatsApp da clínica. A resposta do tutor fica registrada no horário, para a recepção conferir a lista do dia seguinte."
+      },
+      {
+        "titulo": "Chegou: check-in em um passo",
+        "texto": "A recepção confirma a chegada e o pet entra na fila do setor com uma ordem de serviço numerada. A triagem e o consultório já veem quem está esperando."
+      },
+      {
+        "titulo": "A vacina volta a aparecer na hora certa",
+        "texto": "Ao registrar a dose, a data da próxima fica guardada. No dia e na hora que a clínica escolher, sai o aviso ao tutor com o link da carteira de vacinação do pet."
+      }
+    ],
+    "oQueEstaPronto": [
+      "Agenda única em mês, semana e dia, com uma coluna por profissional na visão de dia.",
+      "Bloqueio de horário para quando o profissional não está atendendo.",
+      "Mensagem de confirmação cerca de 24 horas antes do horário, pelo WhatsApp que a clínica já usa.",
+      "Resposta do tutor registrada no horário, para a recepção montar a lista do dia.",
+      "Aviso de vacina próxima no dia e na hora escolhidos pela clínica, com o link da carteira de vacinação do pet.",
+      "Check-in na recepção com fila por setor e ordem de serviço numerada."
+    ],
+    "limites": "Os avisos saem por um canal de WhatsApp não oficial: funciona no dia a dia, mas não é homologado pela Meta e pode ficar indisponível. O telefone precisa estar no cadastro do tutor e, se ele nunca trocou mensagem com o número da clínica, o aviso pode não chegar. Não existe aplicativo para o tutor baixar, nem painel de chamada na televisão da sala de espera, e o aviso de vacina vem desligado até a clínica ligar.",
+    "preco": "A agenda e o check-in na recepção estão no plano gratuito, com dois usuários, sem prazo e sem cartão. Os avisos e lembretes por WhatsApp são um módulo pago: R$ 19,90 por mês, ou R$ 39,90 com atendimento automático. O preço é por módulo, não por pessoa logada.",
+    "faq": [
+      {
+        "pergunta": "A mensagem sai do número da clínica ou de um número desconhecido?",
+        "resposta": "Do número da clínica, o mesmo que os tutores já conhecem. O canal usado não é o oficial da Meta e pode ficar fora do ar em algum momento. Por isso a recepção continua vendo na tela quem confirmou e quem não respondeu."
+      },
+      {
+        "pergunta": "O tutor precisa instalar algum aplicativo?",
+        "resposta": "Não. Ele recebe a mensagem no WhatsApp. No caso da vacina, abre a carteira de vacinação do pet por um link, no navegador do celular."
+      },
+      {
+        "pergunta": "Cada médico veterinário tem a sua própria agenda?",
+        "resposta": "Sim. Na visão de dia, cada profissional aparece em uma coluna, e cada um pode bloquear os horários em que não atende. As visões de semana e de mês mostram a clínica inteira."
+      },
+      {
+        "pergunta": "O tutor consegue marcar o horário sozinho pelo WhatsApp?",
+        "resposta": "Ainda não. Hoje quem marca é a equipe, pela agenda. O WhatsApp serve para confirmar um horário já marcado e para avisar da vacina."
+      },
+      {
+        "pergunta": "E se o tutor não responder a confirmação?",
+        "resposta": "O horário continua marcado e fica sinalizado como sem resposta. A recepção decide se liga, se oferece outro dia ou se deixa como está."
+      }
+    ],
+    "ctaTexto": "A agenda e o check-in estão no plano gratuito, sem prazo e sem cartão. Comece pela agenda de amanhã.",
+    "tipo": "modulo",
+    "titulo": "Agenda e avisos por WhatsApp"
+  },
+  {
+    "tituloPagina": "Caixa para clínica veterinária",
+    "metaDescricao": "O que o pet consumiu chega somado no caixa. No fechamento, quem conta digita o valor antes de ver o esperado. Crédito do tutor e venda de balcão inclusos.",
+    "h1": "Caixa da clínica veterinária, sem somar à mão",
+    "lede": "Quando o tutor chega ao caixa, a conta do pet já está pronta. A recepção confere, recebe e chama o próximo.",
+    "dor": "Hoje a conta do pet se forma em vários lugares. O médico veterinário anota a consulta no prontuário, a vacina fica numa etiqueta, o medicamento aplicado alguém lembra de avisar. A recepção junta tudo na frente do tutor, pergunta no grupo se entrou mais alguma coisa e soma na calculadora. O tutor que deixou dinheiro adiantado para a internação volta e ninguém acha onde esse valor foi lançado. No fim do dia, quem fecha o caixa já sabe o número que o sistema espera, então a contagem do dinheiro vira uma confirmação. Quando sobra ou falta, o dia já passou e é difícil dizer em qual atendimento começou a diferença.",
+    "comoFunciona": [
+      {
+        "titulo": "O atendimento vai somando",
+        "texto": "A triagem, o consultório e a farmácia lançam o que o pet recebeu. Cada consulta, vacina, exame e medicamento entra na conta daquele pet, com o preço da sua tabela."
+      },
+      {
+        "titulo": "O tutor chega ao caixa com a conta pronta",
+        "texto": "A recepção abre a conta do pet e vê os itens na tela. Recebe em dinheiro, cartão, Pix ou divide entre formas de pagamento, sem redigitar nada."
+      },
+      {
+        "titulo": "Venda de balcão em poucos cliques",
+        "texto": "O cliente que só quer ração ou antipulgas não precisa de atendimento. A recepção abre uma venda rápida, escolhe os produtos e o estoque baixa junto."
+      },
+      {
+        "titulo": "Dinheiro adiantado fica como crédito do tutor",
+        "texto": "Antes da internação ou da cirurgia, o tutor costuma deixar um valor. Esse valor vira crédito no nome dele e abate nas contas seguintes."
+      },
+      {
+        "titulo": "Fechamento com contagem às cegas",
+        "texto": "Quem fecha conta o dinheiro da gaveta e digita o que contou. Só depois disso o sistema mostra o valor esperado e a diferença."
+      },
+      {
+        "titulo": "O dia fica registrado por forma de pagamento",
+        "texto": "O caixa central mostra o total do dia separado em dinheiro, Pix, cartão e crédito usado. As vendas no cartão ficam marcadas como a receber até a operadora repassar."
+      }
+    ],
+    "oQueEstaPronto": [
+      "O caixa recebe somado tudo o que o pet consumiu no atendimento, com ordem de serviço numerada desde a recepção.",
+      "O fechamento exige que quem conta digite o valor contado antes de ver o esperado, e registra a diferença.",
+      "Crédito e adiantamento do tutor abatem nas contas seguintes do mesmo tutor.",
+      "Venda de balcão com baixa de estoque por lote e validade, sem precisar abrir atendimento.",
+      "Conferência das vendas no cartão pelo arquivo que a operadora disponibiliza, casando número do comprovante, valor e parcela.",
+      "Conferência do extrato que você baixa no site do banco, no arquivo que o internet banking oferece para importação, e ligação direta com o Sicoob."
+    ],
+    "limites": "O caixa não existe no plano gratuito: ele entra a partir de qualquer plano pago. Não temos maquininha ligada ao caixa, então a cobrança é passada na maquininha do banco e o valor é confirmado na tela. A conferência das vendas no cartão depende do arquivo que a sua operadora disponibiliza.",
+    "preco": "O caixa, a venda de balcão e o crédito do tutor não têm custo extra em nenhum plano pago, e os planos começam em R$ 189 por mês. A conferência do extrato do banco e das vendas no cartão fica no módulo Financeiro completo, R$ 99,90 por mês. O preço é por módulo, não por pessoa logada.",
+    "faq": [
+      {
+        "pergunta": "O plano gratuito tem caixa?",
+        "resposta": "Não. O plano gratuito cobre recepção, cadastro de tutores e pets, consultório e gestão, com dois usuários e sem prazo. O caixa entra quando você passa para um plano pago."
+      },
+      {
+        "pergunta": "Quem fecha o caixa vê o valor esperado antes de contar?",
+        "resposta": "Não. O sistema pede primeiro o valor contado na gaveta. Só depois mostra o esperado e a diferença. Isso vale para qualquer pessoa, inclusive para o dono da clínica."
+      },
+      {
+        "pergunta": "Funciona com a minha maquininha?",
+        "resposta": "Não temos maquininha ligada ao sistema, e não prometemos isso. A cobrança é passada na sua máquina como você já faz hoje, e a recepção confirma no caixa a forma de pagamento e o valor. A conferência do que a operadora repassou é feita depois, pelo arquivo dela, no módulo Financeiro completo."
+      },
+      {
+        "pergunta": "O tutor deixou R$ 300 antes da cirurgia. Como isso entra?",
+        "resposta": "O valor é lançado como crédito no nome do tutor. Na hora de fechar a conta da cirurgia, o crédito aparece e abate o total. Se sobrar saldo, ele continua disponível para o próximo atendimento."
+      },
+      {
+        "pergunta": "Minha clínica tem mais de um CNPJ. O caixa separa?",
+        "resposta": "Sim. Cada empresa faturante tem o seu caixa e os seus recebimentos, e o crédito do tutor fica registrado na empresa em que ele foi recebido. Se a sua operação precisa que o crédito de uma empresa abata a conta de outra, traga esse caso para a gente antes de fechar: é levantamento, não é algo que já esteja pronto."
+      }
+    ],
+    "ctaTexto": "Crie a conta gratuita, lance dois atendimentos e veja a conta chegar somada ao caixa.",
+    "slug": "caixa",
+    "tipo": "modulo",
+    "titulo": "Caixa da clínica veterinária"
+  },
+  {
+    "tituloPagina": "Controle de estoque com lote e validade",
+    "metaDescricao": "Estoque com lote, validade e ponto de reposição para clínica veterinária. O que o médico veterinário aplica na consulta sai do estoque, e o aviso chega antes.",
+    "h1": "Estoque com lote, validade e aviso de reposição",
+    "slug": "estoque-e-validade",
+    "lede": "Você abre a tela e vê o que tem na prateleira, de qual lote e até quando vale. O que o médico veterinário aplica na consulta sai do estoque na hora.",
+    "dor": "Hoje o estoque fica em dois lugares: na prateleira e na memória de quem trabalha ali. A falta costuma aparecer no meio do atendimento, com o pet já na mesa, e alguém sai para comprar fora. A planilha de vencimentos é atualizada quando sobra tempo, e sobra pouco. O frasco que ninguém pegou fica no fundo da gaveta até o dia em que a validade já passou. No fim do mês, a lista de compras é montada de cabeça, olhando o que parece estar baixo.",
+    "comoFunciona": [
+      {
+        "titulo": "A mercadoria entra pela nota do fornecedor",
+        "texto": "Você abre no sistema o arquivo da nota que o fornecedor manda por e-mail. Os produtos entram no estoque e as parcelas já ficam no contas a pagar."
+      },
+      {
+        "titulo": "Cada entrada guarda o lote e a validade",
+        "texto": "Na entrada você informa lote e data de validade. A partir daí cada frasco e cada caixa têm identidade, não são só uma quantidade."
+      },
+      {
+        "titulo": "Você define quando quer ser avisado",
+        "texto": "Para cada produto você diz a quantidade mínima que precisa ter. Quando o saldo chega nesse ponto, o produto aparece na lista de reposição."
+      },
+      {
+        "titulo": "O que foi aplicado na consulta sai do estoque",
+        "texto": "O médico veterinário lança o medicamento ou o material dentro da consulta. A quantidade sai do estoque no mesmo momento, sem ninguém anotar depois."
+      },
+      {
+        "titulo": "A venda no balcão também baixa",
+        "texto": "O que a recepção vende no caixa sai do estoque pelo mesmo caminho. O saldo da tela é o saldo de verdade, não a soma de dois controles."
+      },
+      {
+        "titulo": "Controlado tem um caminho próprio",
+        "texto": "Medicamento controlado sai amarrado à receita, com o nome e o CRMV de quem prescreveu, e é lançado no livro de controlados por substância."
+      }
+    ],
+    "oQueEstaPronto": [
+      "Entrada de mercadoria pelo arquivo da nota do fornecedor, alimentando o estoque e o contas a pagar de uma vez.",
+      "Lote, data de validade e ponto de reposição cadastrados em cada produto.",
+      "Baixa automática do que foi aplicado na consulta e do que foi vendido no caixa.",
+      "Livro de controlados digital, organizado por substância e pronto para imprimir na fiscalização.",
+      "Receituário azul gerado automaticamente quando o medicamento exige.",
+      "Estoque separado por clínica: cada unidade vê e movimenta o seu."
+    ],
+    "limites": "Nunca trouxemos o estoque de outro sistema para dentro do nosso: existe importador de cadastro, e a primeira carga é feita junto com você. Ainda não existe um botão para você mesmo exportar a base; se pedir, devolvemos seus dados em arquivo aberto, e isso está escrito no contrato. Também não há aplicativo para instalar no celular — o estoque é usado pelo navegador.",
+    "preco": "Estoque não entra no plano gratuito. Em qualquer plano pago ele vem sem custo extra, junto com triagem, caixa e entrada de notas de compra; planos fechados começam em R$ 189 por mês. O preço é por módulo, não por pessoa logada.",
+    "faq": [
+      {
+        "pergunta": "O estoque baixa sozinho quando o medicamento é aplicado no atendimento?",
+        "resposta": "Sim. O médico veterinário lança o item dentro da consulta e a quantidade sai do estoque naquele momento. Ninguém precisa anotar em papel para dar baixa depois."
+      },
+      {
+        "pergunta": "Preciso digitar a nota do fornecedor produto por produto?",
+        "resposta": "Não. Você abre o arquivo da nota que o fornecedor envia e os produtos entram no estoque. As parcelas da nota vão para o contas a pagar na mesma operação."
+      },
+      {
+        "pergunta": "Como eu fico sabendo que um produto está acabando?",
+        "resposta": "Você cadastra a quantidade mínima de cada produto. Quando o saldo chega nesse ponto, ele aparece na lista de reposição, antes de faltar no atendimento."
+      },
+      {
+        "pergunta": "E o controle de validade, como funciona na prática?",
+        "resposta": "A validade fica guardada na entrada, por lote. Assim você consulta o que vence primeiro e usa esse lote antes, em vez de descobrir o vencimento na hora de pegar o frasco."
+      },
+      {
+        "pergunta": "Dá para começar com o estoque que hoje está na planilha?",
+        "resposta": "Dá, com a mão de alguém. Existe importador de cadastro, e nunca trouxemos um estoque de outro sistema para dentro do nosso: o saldo inicial sai da sua primeira contagem. Antes de fechar, mande a sua planilha para a gente olhar — a gente diz o que entra por importação e o que vai ser digitado, sem prometer prazo que ainda não cumprimos."
+      }
+    ],
+    "ctaTexto": "Crie a conta gratuita e comece cadastrando os dez produtos que mais somem da prateleira.",
+    "tipo": "modulo",
+    "titulo": "Controle de estoque com lote e validade"
+  },
+  {
+    "comoFunciona": [
+      {
+        "titulo": "A nota chega com um arquivo junto",
+        "texto": "Toda nota eletrônica vem com um arquivo, no mesmo e-mail em que o fornecedor manda a nota. É esse arquivo que o sistema lê."
+      },
+      {
+        "titulo": "Você escolhe o arquivo na tela de compras",
+        "texto": "Clique em nova entrada e selecione o arquivo. O sistema lê o fornecedor, os itens, as quantidades, os preços e os vencimentos."
+      },
+      {
+        "titulo": "A nota aparece pronta para conferir",
+        "texto": "Os itens ficam na tela com quantidade, preço, lote e validade. Você confere com a caixa aberta na sua frente e ajusta o que vier diferente."
+      },
+      {
+        "titulo": "Você confirma e a mercadoria entra no estoque",
+        "texto": "Em um clique, cada item entra com o seu lote e a sua validade. Nada é digitado linha por linha."
+      },
+      {
+        "titulo": "As parcelas caem no contas a pagar",
+        "texto": "Cada vencimento da mesma nota vira uma conta a pagar, com fornecedor, valor e data. Ninguém relança a nota de novo."
+      },
+      {
+        "titulo": "O resto do sistema já sabe",
+        "texto": "Substância controlada entra no livro de controlados. O item que fica abaixo do ponto de reposição é sinalizado no estoque."
+      }
+    ],
+    "ctaTexto": "Comece pela conta gratuita e veja o sistema por dentro; a entrada de mercadoria pela nota do fornecedor entra quando você fecha um plano pago.",
+    "dor": "A mercadoria chega e a nota vem em cima da caixa. Alguém abre a tela de estoque e digita linha por linha: nome do produto, quantidade, preço, lote, validade. Depois pega a mesma nota, olha as parcelas e lança cada vencimento no contas a pagar. Uma nota de quarenta itens come a manhã inteira. Em dia cheio, a entrada fica para depois — e o estoque do sistema para de bater com a prateleira.",
+    "faq": [
+      {
+        "pergunta": "O fornecedor precisa mandar algo diferente do que manda hoje?",
+        "resposta": "Não. A nota eletrônica já vem com um arquivo anexado no e-mail, junto do papel que chega com a mercadoria. É esse arquivo que você usa."
+      },
+      {
+        "pergunta": "E se o nome do produto na nota for diferente do nome que eu uso?",
+        "resposta": "A tela mostra os itens antes de gravar. Você confere e ajusta quantidade, preço, lote e validade ali mesmo, e só então confirma a entrada."
+      },
+      {
+        "pergunta": "A nota lançada já conta para o livro de controlados?",
+        "resposta": "Sim, quando o item é uma substância controlada. A entrada aparece no livro digital, separada por substância, e o relatório sai pronto para imprimir na fiscalização."
+      },
+      {
+        "pergunta": "Isso emite nota fiscal?",
+        "resposta": "Não. Esta tela é só de entrada de mercadoria. A emissão de nota de serviço é outro módulo, de R$ 49,00 por mês, e depende do credenciamento da sua prefeitura e da senha de emissão no nome da clínica."
+      },
+      {
+        "pergunta": "Preciso lançar a nota no dia em que a mercadoria chega?",
+        "resposta": "Não. Mas quanto mais perto da chegada, mais o estoque do sistema fica igual ao da prateleira e menos surpresa aparece na hora de repor."
+      }
+    ],
+    "h1": "Entrada de mercadoria pela nota do fornecedor",
+    "lede": "A caixa chega, você escolhe o arquivo da nota e a mercadoria entra no estoque com lote e validade. As parcelas da mesma nota já aparecem no contas a pagar.",
+    "limites": "O sistema lê o arquivo que acompanha a nota eletrônica. Se o fornecedor entregou só o papel ou um PDF, a entrada continua sendo digitada à mão. A entrada não gera livro fiscal nem apuração de imposto — isso segue com o seu contador — e o pagamento em si continua sendo feito no banco: aqui ficam o fornecedor, o valor e o vencimento.",
+    "metaDescricao": "Lance a nota do fornecedor de uma vez: o estoque entra com lote e validade e as parcelas caem no contas a pagar. Sua equipe deixa de digitar item por item.",
+    "oQueEstaPronto": [
+      "Leitura do arquivo da nota do fornecedor, com fornecedor, itens, valores e vencimentos.",
+      "Entrada no estoque com lote, validade e ponto de reposição.",
+      "Parcelas da nota lançadas automaticamente no contas a pagar.",
+      "Livro de controlados digital, separado por substância, pronto para imprimir na fiscalização.",
+      "A venda no caixa baixa do mesmo estoque que a nota alimentou."
+    ],
+    "preco": "A entrada pela nota do fornecedor não tem custo extra em plano pago: vem junto com Estoque, Triagem, Vendas e Internação simples. Planos fechados a partir de R$ 189 por mês, e o preço é por módulo, não por pessoa logada. O plano gratuito não inclui este módulo.",
+    "slug": "compras-e-nota-do-fornecedor",
+    "tituloPagina": "Entrada de mercadoria pela nota do fornecedor",
+    "tipo": "modulo",
+    "titulo": "Entrada de mercadoria sem digitar item por item"
+  },
+  {
+    "tituloPagina": "Livro de controlados digital por substância",
+    "metaDescricao": "Cada saída de controlado entra pela receita, com o registro do médico veterinário. O saldo de cada substância fica em dia e o livro sai pronto para imprimir.",
+    "h1": "O livro de controlados se preenche no atendimento",
+    "lede": "Quando o médico veterinário prescreve um controlado, a saída já entra no livro. No fim do mês a equipe só confere o saldo e imprime.",
+    "dor": "Hoje o livro vive num caderno ou numa planilha. E quem preenche é a mesma pessoa que atende o telefone, recebe a nota do fornecedor e fecha o caixa. A receita sai, o frasco sai da prateleira e o lançamento fica para depois. Depois vira semana, semana vira mês. Quando a fiscalização marca a visita, alguém precisa reconstruir o movimento olhando receita por receita, uma a uma, para fechar o saldo de cada substância. Em clínica movimentada, esse atraso chega a meses.",
+    "comoFunciona": [
+      {
+        "titulo": "A entrada é registrada quando o produto chega",
+        "texto": "A pessoa do estoque lança a chegada do controlado com lote e validade. Essa entrada abre o saldo daquela substância no livro."
+      },
+      {
+        "titulo": "O médico veterinário prescreve no prontuário",
+        "texto": "Ele dita ou digita a prescrição no atendimento. Se o medicamento está sinalizado como controlado, o receituário azul sai automático, já com o nome e o registro dele no Conselho Regional de Medicina Veterinária (CRMV)."
+      },
+      {
+        "titulo": "A saída nasce amarrada à receita",
+        "texto": "A dispensação sai da receita, não de um lançamento solto. Quantidade, substância, data, pet, tutor e médico veterinário responsável ficam juntos no mesmo registro."
+      },
+      {
+        "titulo": "O saldo anda na hora",
+        "texto": "Cada entrada e cada saída mexem no saldo da substância no mesmo instante. Ninguém precisa somar coluna no fim do dia."
+      },
+      {
+        "titulo": "Você confere pela substância, não pelo caderno",
+        "texto": "A tela mostra a movimentação de uma substância no período que você escolher. Se um número parece estranho, você vê de qual receita ele veio."
+      },
+      {
+        "titulo": "Na fiscalização, você imprime",
+        "texto": "O relatório sai por substância e por período, no formato de livro, pronto para imprimir e assinar. Serve de referência para a Portaria 344/98, da Agência Nacional de Vigilância Sanitária (Anvisa)."
+      }
+    ],
+    "oQueEstaPronto": [
+      "Livro de controlados digital, separado por substância, com entradas e saídas no mesmo lugar.",
+      "Receituário azul automático quando o medicamento está sinalizado como controlado.",
+      "Saída amarrada à receita, com o nome e o registro do médico veterinário no CRMV.",
+      "Relatório por substância e por período, pronto para imprimir na hora da fiscalização.",
+      "Estoque com lote, validade e ponto de reposição, para o saldo do livro conversar com a prateleira.",
+      "Prontuário que não muda depois de finalizado: correção só por adendo datado, com nome e CRMV de quem corrigiu.",
+      "Guarda de cinco anos imposta pelo próprio banco de dados, conforme a Resolução 1321/2020 do Conselho Federal de Medicina Veterinária (CFMV)."
+    ],
+    "limites": "Não temos assinatura digital com certificado: o livro sai impresso, para a equipe assinar à mão. O sistema registra o movimento a partir do dia em que vocês começam a usar — meses anteriores só entram se alguém digitar, e nós nunca executamos migração de um sistema antigo. Se um dia vocês quiserem sair, a base é devolvida em arquivo aberto mediante pedido, com esse compromisso em contrato; ainda não existe um botão de exportar dentro do sistema.",
+    "preco": "O livro de controlados faz parte do controle de estoque, que não tem custo extra nos planos pagos. Os planos fechados começam em R$ 189 por mês, e a cobrança é por módulo, não por pessoa logada.",
+    "faq": [
+      {
+        "pergunta": "O livro impresso ainda vale para a fiscalização?",
+        "resposta": "O sistema guarda o movimento e gera o relatório por substância no formato de livro, para imprimir e assinar. Como não trabalhamos com assinatura por certificado digital, a assinatura continua sendo a de sempre, à mão, de quem responde pela clínica."
+      },
+      {
+        "pergunta": "Dá para regularizar os meses que estão atrasados?",
+        "resposta": "O sistema passa a registrar tudo a partir do primeiro lançamento de vocês. O passivo anterior precisa ser digitado por alguém da equipe, receita por receita. Não prometemos isso pronto: nunca fizemos uma migração de sistema antigo e preferimos dizer antes."
+      },
+      {
+        "pergunta": "O receituário azul sai sozinho?",
+        "resposta": "Sim, quando o medicamento está sinalizado como controlado no cadastro. O médico veterinário prescreve no prontuário e o receituário azul sai com os dados dele e do tutor já preenchidos."
+      },
+      {
+        "pergunta": "Quem pode dar saída de um controlado?",
+        "resposta": "A saída pela prescrição nasce da receita, com o nome e o registro no CRMV do médico veterinário que prescreveu. Qualquer outra movimentação do estoque fica registrada com o nome de quem lançou e a data: nenhuma saída fica sem autor. Quem pode lançar é definido pelo perfil de cada pessoa da equipe."
+      },
+      {
+        "pergunta": "E se o saldo do livro não bater com a prateleira?",
+        "resposta": "Você abre a substância, vê entrada por entrada e saída por saída no período, e identifica de qual receita ou de qual chegada veio cada número. A correção fica registrada, com data e autor, em vez de rasura."
+      }
+    ],
+    "ctaTexto": "Comece pelo plano gratuito, sem cartão e sem prazo, e conheça o sistema por dentro antes de ligar o controle de estoque.",
+    "slug": "livro-de-controlados",
+    "tipo": "modulo",
+    "titulo": "Livro de controlados digital"
+  },
+  {
+    "slug": "conferencia-de-cartao-e-banco",
+    "tituloPagina": "Conferência de cartão e de banco para clínica veterinária",
+    "metaDescricao": "Confira o repasse da maquininha e o extrato do banco venda por venda. O sistema cruza os valores e deixa só as diferenças numa lista curta para resolver.",
+    "h1": "Conferência de cartão e de banco, venda por venda",
+    "lede": "Você abre o repasse da maquininha e vê na hora quais vendas já caíram na conta. O que não fecha vira uma lista curta, com o nome do tutor e o valor.",
+    "dor": "Hoje essa conferência é feita com duas telas abertas. De um lado, as vendas do dia. Do outro, o repasse da maquininha, já com a taxa descontada e as parcelas espalhadas em datas diferentes. Quando a clínica tem mais de uma maquininha, cada setor usa a sua. De vez em quando o pagamento entra na máquina de outro setor, e começa a procura pelo lançamento. Em clínica com muito cartão, esse trabalho ocupa dias do mês. A conferência do banco é a que costuma ficar para depois: dá trabalho montar o relatório, e o mês fecha sem ninguém comparar o sistema com o extrato.",
+    "comoFunciona": [
+      {
+        "titulo": "A venda no cartão fica marcada para conferir",
+        "texto": "No caixa, a pessoa marca que o tutor pagou no cartão e informa as parcelas. Aquela venda fica guardada para ser conferida quando o repasse chegar."
+      },
+      {
+        "titulo": "Você baixa o arquivo do repasse",
+        "texto": "No portal ou no aplicativo da sua maquininha, você exporta o período e salva o arquivo. Depois, envia esse arquivo na tela de conferência."
+      },
+      {
+        "titulo": "O sistema cruza venda por venda",
+        "texto": "Ele compara o número da transação da maquininha, o valor e a parcela. Cada venda que bate é marcada como recebida, sem ninguém digitar nada."
+      },
+      {
+        "titulo": "Só a diferença chega até você",
+        "texto": "O que não bateu fica numa lista separada: venda sem repasse, repasse sem venda, valor diferente. Você resolve item por item, apontando cada um para a venda certa."
+      },
+      {
+        "titulo": "O extrato do banco entra do mesmo jeito",
+        "texto": "Você baixa o extrato no site do seu banco e envia. No Sicoob, o extrato chega direto, sem baixar nada. O que entrou e o que saiu aparece lado a lado com os lançamentos do sistema."
+      },
+      {
+        "titulo": "Cada empresa com a sua conferência",
+        "texto": "Se a clínica tem mais de um CNPJ, cada empresa tem as suas contas e o seu repasse. A conferência é feita por empresa, sem misturar."
+      }
+    ],
+    "oQueEstaPronto": [
+      "Conferência do cartão pelo arquivo que a empresa da sua maquininha disponibiliza, cruzando número da transação, valor e parcela.",
+      "Conferência do banco pelo extrato que você baixa no site do banco, no arquivo que o internet banking oferece para importação.",
+      "No Sicoob, o extrato chega direto ao sistema, sem precisar baixar e enviar arquivo.",
+      "Clínica com mais de um CNPJ: cada empresa faturante com as suas contas e a sua conferência.",
+      "Caixa com conferência cega no fechamento e crédito do tutor para adiantamento."
+    ],
+    "limites": "A maquininha não é integrada ao caixa: a venda continua sendo digitada na máquina, como hoje. O arquivo do repasse precisa ser baixado por você no site da empresa da maquininha, porque não buscamos esse arquivo sozinhos. A exceção é o Sicoob, cujo extrato chega direto; nos outros bancos, o extrato também é baixado e enviado por você.",
+    "preco": "Faz parte do módulo Financeiro completo, R$ 99,90 por mês, e o preço é por módulo, não por pessoa que entra no sistema. A conferência do repasse do convênio Petlove é um módulo separado, R$ 49,90 por mês.",
+    "faq": [
+      {
+        "pergunta": "Funciona com a minha maquininha?",
+        "resposta": "Depende do arquivo que a empresa da sua maquininha deixa você baixar. Já lemos o arquivo de repasse da maquininha que uma clínica nossa usa. Como cada empresa de cartão monta o arquivo do seu jeito, não dá para prometer antes de ver: envie um arquivo seu e nós confirmamos a leitura, em vez de dizer que funciona."
+      },
+      {
+        "pergunta": "Preciso de maquininha integrada ao sistema?",
+        "resposta": "Não, e nós não temos isso. A venda é passada na máquina como hoje. A conferência é feita depois, pelo arquivo do repasse, que é o que resolve a sua conta no fim do mês."
+      },
+      {
+        "pergunta": "Funciona com o meu banco?",
+        "resposta": "Funciona com os bancos cujo internet banking deixa você baixar o extrato no arquivo próprio para importar em programa financeiro, a opção que quase todo banco oferece ao lado do extrato em PDF. Extrato em PDF não serve para a conferência automática. No Sicoob, o extrato chega direto, sem você baixar nada. Na dúvida, baixe um extrato seu e mande para a gente antes de fechar."
+      },
+      {
+        "pergunta": "E quando o pagamento entra na maquininha do setor errado?",
+        "resposta": "O repasse aparece na lista sem venda correspondente, e a venda aparece sem repasse. Você liga os dois na tela e registra de qual empresa veio o dinheiro, em vez de procurar o lançamento dentro do extrato."
+      },
+      {
+        "pergunta": "Quem faz essa conferência na clínica?",
+        "resposta": "Quem já cuida do financeiro hoje. A diferença é o ponto de partida: a pessoa olha só a lista do que não fechou. O resto já vem marcado como conferido."
+      }
+    ],
+    "ctaTexto": "Crie a conta grátis e teste com um arquivo de repasse do mês passado.",
+    "tipo": "modulo",
+    "titulo": "Conferência de cartão e de banco"
+  },
+  {
+    "comoFunciona": [
+      {
+        "titulo": "Uma vez só: a empresa é cadastrada",
+        "texto": "Você informa os dados da empresa e o código de serviço que a sua prefeitura usa. A senha de emissão continua no nome da clínica."
+      },
+      {
+        "titulo": "A equipe lança o atendimento como já faz",
+        "texto": "A recepção abre a ficha, a triagem registra peso e temperatura, o médico veterinário atende. Cada serviço entra na conta do pet com o valor da tabela."
+      },
+      {
+        "titulo": "No caixa, você fecha e pede a nota",
+        "texto": "Quem está no caixa confere o que foi somado e manda emitir. O sistema envia os serviços daquele atendimento, sem ninguém redigitar nome, valor ou serviço."
+      },
+      {
+        "titulo": "A nota volta com número e fica no atendimento",
+        "texto": "Em poucos segundos o número da nota aparece na tela. Ela fica guardada junto ao atendimento, pronta para imprimir ou entregar ao tutor."
+      },
+      {
+        "titulo": "Mais de uma empresa: cada uma emite a sua",
+        "texto": "Você escolhe qual empresa faturou aquele serviço. A nota sai com os dados dessa empresa, e não misturada com as outras do grupo."
+      },
+      {
+        "titulo": "No fim do mês, nada precisa ser reconstruído",
+        "texto": "Cada nota está ligada ao atendimento que a gerou e à empresa que faturou. Quando o contador pede o mês, a lista já existe."
+      }
+    ],
+    "ctaTexto": "Crie a conta grátis, use o caixa e o fechamento, e ligue a nota quando a sua prefeitura liberar.",
+    "dor": "Hoje a nota é um segundo trabalho, depois que o atendimento já acabou. Alguém abre o site da prefeitura no fim do dia e digita uma por uma. Precisa achar o nome do tutor, o valor cobrado e o serviço que foi feito. Quando o atendimento passou por vários setores, a conta passou por várias mãos também. Se a clínica tem mais de uma empresa, ainda é preciso lembrar qual delas fatura aquele serviço. E no começo do mês o contador pede a lista completa.",
+    "faq": [
+      {
+        "pergunta": "A minha prefeitura é atendida?",
+        "resposta": "Isso varia de cidade para cidade. A gente verifica a sua antes de você contratar o módulo, com os dados reais da sua empresa. Se a prefeitura ainda não libera a emissão para a clínica, a nota não sai — e dizemos isso na hora."
+      },
+      {
+        "pergunta": "Tenho três empresas no grupo. Sai uma nota só?",
+        "resposta": "Não. Cada empresa emite a nota dela, com os dados dela. É assim que o contador precisa receber. Cada empresa também precisa do seu próprio cadastro na prefeitura e da sua senha de emissão."
+      },
+      {
+        "pergunta": "A nota sai sozinha, sem ninguém olhar?",
+        "resposta": "Ela sai quando você fecha o atendimento e pede a emissão. O valor é o que foi lançado na conta do pet, serviço por serviço. Ninguém digita de novo, mas ninguém emite sem o seu comando."
+      },
+      {
+        "pergunta": "Preciso continuar pagando o emissor que uso hoje?",
+        "resposta": "Para a nota de serviço, não. Para a nota de venda de produto, sim: essa o SYSVETMAX ainda não emite. Clínica que também vende mercadoria mantém o emissor que já tem para essa parte."
+      },
+      {
+        "pergunta": "A senha de emissão fica com vocês?",
+        "resposta": "A senha é da clínica e continua no nome da clínica. Ela é cadastrada uma vez para que a emissão funcione. Se você sair do sistema, a senha segue sendo sua."
+      }
+    ],
+    "h1": "A nota de serviço sai do próprio atendimento",
+    "lede": "Você fecha o atendimento, pede a emissão e a nota de serviço sai com os serviços que já estavam na conta do pet, sem ninguém digitar de novo. Em grupo com mais de uma empresa, cada uma emite a nota dela.",
+    "limites": "A emissão depende da prefeitura: a sua cidade precisa liberar a nota eletrônica de serviço para a clínica, e a senha de emissão precisa estar no nome da empresa. Nós fazemos a ponte com a prefeitura por meio da Focus NFe, mas não aceleramos esse cadastro. A nota de venda de produto não é emitida pelo sistema — hoje emitimos apenas a nota de serviço.",
+    "metaDescricao": "No SYSVETMAX a nota de serviço sai junto com o fechamento do atendimento, uma por empresa quando a clínica tem mais de uma. Depende da prefeitura liberar.",
+    "oQueEstaPronto": [
+      "Emissão da nota eletrônica de serviço no fechamento do atendimento, com os serviços que já estavam na conta do pet.",
+      "Uma nota por empresa quando o grupo tem mais de um Cadastro Nacional da Pessoa Jurídica (CNPJ), com os dados de quem faturou.",
+      "Caixa com fechamento conferido: quem fecha digita o valor contado antes de ver o esperado.",
+      "Crédito e adiantamento do tutor, para quando o pagamento vem antes do serviço.",
+      "Cada nota fica ligada ao atendimento que a gerou e à empresa que emitiu."
+    ],
+    "preco": "Nota fiscal de serviço é um módulo pago: R$ 49,00 por mês. O valor é por módulo, não por pessoa que usa o sistema. O plano gratuito não emite nota.",
+    "slug": "nota-fiscal-de-servico",
+    "tituloPagina": "Nota fiscal de serviço que sai no fechamento",
+    "tipo": "modulo",
+    "titulo": "Nota fiscal de serviço no fechamento"
+  },
+  {
+    "tituloPagina": "Exames e laudos com código de conferência",
+    "metaDescricao": "O médico veterinário pede o exame, o laudo sai com código e QR, e o tutor recebe no WhatsApp. Quem receber confere online se o documento é mesmo autêntico.",
+    "h1": "Exames e laudos: do pedido ao laudo que o tutor recebe no WhatsApp",
+    "lede": "O médico veterinário pede o exame dentro da consulta e o laudo sai com código de conferência e QR. O tutor recebe no WhatsApp e quem receber pode conferir online se o documento é autêntico.",
+    "dor": "Hoje o pedido de exame costuma andar em papel. O médico veterinário anota o que precisa, a folha vai até o laboratório ou até a sala de imagem, e o resultado volta quando volta. O laudo é digitado em um arquivo solto no computador, salvo em uma pasta com o nome do pet, impresso e assinado. Depois alguém procura esse arquivo para mandar ao tutor. Quando a clínica que encaminhou o caso liga perguntando se o laudo já saiu, a recepção precisa achar o arquivo, confirmar se é a versão final e reenviar. E quando chega um laudo pelo WhatsApp, ninguém tem como saber se aquele PDF é o mesmo que saiu da clínica ou se alguém mexeu nele pelo caminho.",
+    "comoFunciona": [
+      {
+        "titulo": "O médico veterinário pede o exame na própria consulta",
+        "texto": "Durante o atendimento, o médico veterinário marca quais exames o pet precisa fazer. O pedido já sai amarrado ao pet, ao tutor e àquela consulta. Ninguém reescreve o nome do animal."
+      },
+      {
+        "titulo": "O exame entra na fila do setor",
+        "texto": "O pedido aparece para quem faz a coleta ou a imagem, com o nome do pet e o que foi solicitado. A equipe vê o que está pendente, o que está em andamento e o que já tem resultado."
+      },
+      {
+        "titulo": "O laudo é escrito e finalizado",
+        "texto": "Quem lauda escreve o resultado dentro do sistema, no layout da clínica, com o nome e o CRMV de quem assina. Ao finalizar, o documento fecha: dali em diante só se corrige por adendo datado, e a correção fica registrada ao lado do original."
+      },
+      {
+        "titulo": "O documento sai com código de conferência e QR",
+        "texto": "Cada laudo finalizado recebe um código próprio e um QR. Esse código vem de uma impressão digital do arquivo, calculada no momento em que ele fecha. Se alguém alterar uma letra do documento, a impressão digital não bate mais."
+      },
+      {
+        "titulo": "O tutor recebe no WhatsApp",
+        "texto": "A recepção envia o laudo para o tutor pelo WhatsApp, sem procurar arquivo em pasta nenhuma. A clínica que encaminhou o caso recebe o mesmo documento, com o mesmo código."
+      },
+      {
+        "titulo": "Quem recebeu confere se é autêntico",
+        "texto": "Quem recebeu o laudo lê o QR ou digita o código em uma página aberta. A página responde se aquele documento saiu mesmo da clínica, em que data e por qual médico veterinário. Não precisa de senha nem de cadastro."
+      }
+    ],
+    "oQueEstaPronto": [
+      "Pedido de exame feito dentro da consulta, já ligado ao pet e ao tutor, e visível para o setor que vai executar.",
+      "Laudo escrito no sistema, no layout da clínica, com nome e CRMV de quem assina.",
+      "Laudo que não pode ser alterado depois de finalizado: a correção entra como adendo datado, com autor identificado.",
+      "Código de conferência e QR em cada laudo, com página pública para quem recebeu verificar se o documento é autêntico.",
+      "Envio do laudo ao tutor por WhatsApp, a partir da ficha do pet.",
+      "Prontuário do pet guardado por cinco anos por obrigação do próprio banco de dados, conforme a Resolução 1321/2020 do Conselho Federal de Medicina Veterinária (CFMV)."
+    ],
+    "limites": "O laudo não leva assinatura digital com certificado ICP-Brasil: a autenticidade é provada pelo código de conferência e pelo QR, não por certificado. Os valores do aparelho de laboratório são digitados por quem opera o equipamento; ainda não puxamos os resultados direto da máquina. O WhatsApp que usamos para enviar não é o canal oficial homologado, e não temos aplicativo publicado para o tutor baixar.",
+    "preco": "Exames e laudos é um módulo pago, de R$ 159,90 por mês. O preço é por módulo, não por pessoa logada: toda a equipe usa pelo mesmo valor. Planos fechados a partir de R$ 189 por mês.",
+    "faq": [
+      {
+        "pergunta": "O código de conferência substitui a assinatura digital com certificado?",
+        "resposta": "Não. São coisas diferentes e dizemos isso com clareza. O certificado ICP-Brasil não existe aqui. O que existe é um código e um QR que provam que aquele documento é o mesmo que saiu da clínica, sem uma letra alterada. Se a sua clínica precisa de certificado por exigência de um convênio ou de um laboratório parceiro, isso hoje não atendemos."
+      },
+      {
+        "pergunta": "Quem recebe o laudo precisa criar conta para conferir?",
+        "resposta": "Não. A página de conferência é aberta. O tutor, ou a clínica que encaminhou o caso, lê o QR ou digita o código e vê na hora se o documento é autêntico, de que data é e qual médico veterinário assinou."
+      },
+      {
+        "pergunta": "Dá para corrigir um laudo depois de enviado?",
+        "resposta": "O laudo finalizado não é reescrito. A correção entra como adendo, com data, nome e CRMV de quem corrigiu, e fica visível junto do texto original. Isso protege a clínica: o que foi dito antes continua lá, e o que mudou está explicado."
+      },
+      {
+        "pergunta": "O sistema lê os resultados direto do aparelho do laboratório?",
+        "resposta": "Ainda não. Quem opera o aparelho digita os valores no laudo. Sabemos que esse é um trabalho repetitivo em clínicas com volume de laboratório e preferimos dizer antes de você assinar, não depois."
+      },
+      {
+        "pergunta": "Meu laboratório atende clínicas da região. Elas conseguem receber o laudo?",
+        "resposta": "Sim, o mesmo laudo com o mesmo código pode ser enviado à clínica que encaminhou o caso. Agora, se o seu laboratório já tem um portal de laudos próprio ou usa nuvem de imagens, isso é conversa de levantamento: não prometemos trocar nem conectar o que você já usa antes de olhar."
+      }
+    ],
+    "ctaTexto": "Crie a conta gratuita, faça um pedido de exame de teste e confira o código do laudo você mesmo.",
+    "slug": "exames-e-laudos",
+    "tipo": "modulo",
+    "titulo": "Exames e laudos"
+  },
+  {
+    "tituloPagina": "Internação e centro cirúrgico para clínica veterinária",
+    "metaDescricao": "Quadro de internados, prescrição, sinais vitais, fluidoterapia e ficha anestésica em uma tela. Cada medicação aplicada já entra na conta do tutor, sem papel.",
+    "h1": "Internação e centro cirúrgico",
+    "lede": "Numa tela, a equipe vê todos os animais internados e o que está na hora de aplicar. O que foi aplicado fica registrado e entra na conta do tutor.",
+    "dor": "Hoje a internação mora numa prancheta pendurada na baia. A prescrição está escrita à mão, com a letra de quem passou de manhã. Na troca de turno, a equipe conta de boca o que já foi dado e o que ainda falta. A fluidoterapia é anotada num canto da folha. A ficha de anestesia fica na sala de cirurgia e depois vai para a pasta do animal. No fim do atendimento, alguém junta tudo para somar a conta. A medicação aplicada às três da manhã e o material usado na cirurgia são os primeiros a ficar de fora. O tutor pergunta o que foi feito e a resposta depende de achar a folha certa.",
+    "comoFunciona": [
+      {
+        "titulo": "A recepção interna o animal",
+        "texto": "A recepção abre a internação a partir da ficha do pet. O animal passa a aparecer no quadro de internados, com o nome do tutor e o motivo."
+      },
+      {
+        "titulo": "O médico veterinário prescreve",
+        "texto": "O médico veterinário lança cada medicação com dose, via e horário. O sistema monta a lista de horários do dia inteiro, por animal."
+      },
+      {
+        "titulo": "A equipe aplica e marca",
+        "texto": "O auxiliar veterinário abre o quadro no computador ou no celular e marca o que aplicou. Ficam gravados o horário real e o nome de quem aplicou."
+      },
+      {
+        "titulo": "Sinais vitais e fluidoterapia entram na hora",
+        "texto": "A equipe registra temperatura e frequência cardíaca e respiratória a cada avaliação. A fluidoterapia fica com o volume, a velocidade e o que já correu."
+      },
+      {
+        "titulo": "A cirurgia tem a própria ficha",
+        "texto": "No centro cirúrgico, a ficha anestésica é preenchida na tela, com os tempos e os valores medidos. Ela fica guardada junto do histórico do animal."
+      },
+      {
+        "titulo": "A conta fecha no caixa",
+        "texto": "Cada medicação e cada material registrado entram na conta daquela internação. Quando o tutor chega para pagar, o caixa já mostra tudo somado."
+      }
+    ],
+    "oQueEstaPronto": [
+      "Quadro de internados com todos os animais da casa e o que está na hora ou em atraso.",
+      "Prescrição por animal, com dose, via e horário, e marcação de quem aplicou e quando.",
+      "Registro de sinais vitais ao longo da internação e controle de fluidoterapia.",
+      "Ficha anestésica preenchida na tela e guardada no histórico do animal.",
+      "Troca de turno sem recontagem: quem entra vê o que já foi feito e o que falta.",
+      "Medicação e material registrados vão para a conta da internação, que o caixa fecha."
+    ],
+    "limites": "Não temos integração com monitor multiparamétrico nem com bomba de infusão: os valores são digitados pela equipe. A ficha anestésica e o termo de consentimento são impressos e assinados à mão, porque ainda não fazemos assinatura digital com certificado. Não existe aplicativo publicado nas lojas; a equipe usa pelo navegador do celular ou do tablet.",
+    "preco": "A internação simples, com quadro de internados e prescrição, vem sem custo extra em qualquer plano pago. A internação completa, com sinais vitais, fluidoterapia e centro cirúrgico, custa R$ 59,90 por mês; os planos fechados começam em R$ 189 por mês e o preço é por módulo, não por pessoa logada.",
+    "faq": [
+      {
+        "pergunta": "Dá para a equipe marcar a medicação pelo celular, dentro da baia?",
+        "resposta": "Sim. O quadro de internados abre no navegador do celular ou do tablet. O auxiliar veterinário marca ali mesmo, no horário em que aplicou."
+      },
+      {
+        "pergunta": "O sistema mostra quando está na hora de uma medicação?",
+        "resposta": "O quadro mostra o que está na hora e o que passou do horário, animal por animal. Os avisos por WhatsApp são para o tutor, não para a equipe interna."
+      },
+      {
+        "pergunta": "O que foi aplicado de madrugada aparece na conta do tutor?",
+        "resposta": "Aparece. Cada aplicação e cada material registrado entram na conta daquela internação. No caixa, a conta já vem montada com esses lançamentos."
+      },
+      {
+        "pergunta": "A ficha anestésica serve para apresentar numa fiscalização?",
+        "resposta": "Ela fica guardada no histórico do animal e pode ser impressa a qualquer momento. A assinatura é feita à mão no papel, porque ainda não fazemos assinatura com certificado digital."
+      },
+      {
+        "pergunta": "Posso usar só a internação simples e deixar o centro cirúrgico para depois?",
+        "resposta": "Pode. O quadro de internados e a prescrição já vêm no plano pago. A internação completa e o centro cirúrgico você contrata quando quiser: a gente ativa, e você avisa quando quiser parar, sem multa e sem taxa para ligar. O que ficou registrado continua no histórico do animal."
+      }
+    ],
+    "ctaTexto": "Crie sua conta grátis e acompanhe o primeiro animal internado pela tela, hoje mesmo.",
+    "slug": "internacao-e-centro-cirurgico",
+    "tipo": "modulo",
+    "titulo": "Internação e centro cirúrgico"
+  },
+  {
+    "comoFunciona": [
+      {
+        "titulo": "Você cria a conta e começa pelo plano grátis",
+        "texto": "Leva poucos minutos e não pede cartão. Já entram a recepção, o cadastro de tutores e pets, o consultório e a parte de gestão. Duas pessoas usam, sem prazo para acabar."
+      },
+      {
+        "titulo": "A recepção digita o nome e a ficha abre",
+        "texto": "O pet entra numa fila por setor e o atendimento ganha um número de ordem de serviço. Quem está no consultório vê quem chegou, sem precisar perguntar."
+      },
+      {
+        "titulo": "O médico veterinário fala e o prontuário fica escrito",
+        "texto": "Em vez de digitar, você dita. A transcrição escreve o que foi dito e não sugere diagnóstico: quem decide é o médico veterinário."
+      },
+      {
+        "titulo": "Ao finalizar, o prontuário trava",
+        "texto": "Depois de fechado, o texto não é mais alterado. Se faltou algo, entra um adendo com data, nome e número de registro no Conselho Regional de Medicina Veterinária (CRMV)."
+      },
+      {
+        "titulo": "O tutor recebe a carteira de vacinação por um link",
+        "texto": "Você aplica a vacina e registra. O tutor abre o link no telefone dele e vê o que o pet já tomou. Ninguém mais liga perguntando."
+      },
+      {
+        "titulo": "Quando um trabalho começa a pesar, você contrata o módulo dele",
+        "texto": "Avisos por WhatsApp, exames e laudos, banho e tosa, financeiro completo. Cada um entra separado, no mês em que você precisar: a gente ativa, e você avisa quando não precisar mais."
+      }
+    ],
+    "ctaTexto": "Crie a conta grátis e teste na sua rotina de amanhã, com os seus próprios atendimentos.",
+    "dor": "Hoje a ficha do pet está numa pasta, a agenda num caderno e os valores numa planilha. Funciona enquanto a memória de quem está ali ajuda. Quando o tutor liga perguntando qual vacina o cachorro tomou no ano passado, alguém interrompe o atendimento e vai procurar. No fim do dia, o caixa é contado e anotado num papel que depois ninguém confere. E quando aparece um sistema, o preço vem por pessoa logada: duas pessoas, dois acessos, e a conta não fecha no orçamento de uma clínica pequena.",
+    "faq": [
+      {
+        "pergunta": "O plano grátis tem prazo para acabar?",
+        "resposta": "Não. Não tem prazo, não pede cartão e não vira cobrança sozinho. Ele atende duas pessoas e inclui recepção, cadastro de tutores e pets, consultório e gestão. Se nunca fizer sentido subir de plano, fique nele."
+      },
+      {
+        "pergunta": "Somos só eu e mais uma pessoa. Vamos pagar dois acessos?",
+        "resposta": "Não. Aqui o preço é por módulo, não por pessoa logada. Você paga pelo que a clínica faz, não pelo número de gente que entra no sistema."
+      },
+      {
+        "pergunta": "O caixa está no plano grátis?",
+        "resposta": "Não. O caixa entra no plano pago, e lá não tem custo extra. Ele fecha com conferência cega: quem fecha digita o valor contado antes de ver o valor esperado. A diferença aparece na hora."
+      },
+      {
+        "pergunta": "Se eu sair, levo os meus dados?",
+        "resposta": "A base é sua. Hoje não existe um botão de exportação dentro do sistema: a pedido, devolvemos tudo em arquivo aberto. Esse compromisso está escrito no contrato, não só na conversa."
+      },
+      {
+        "pergunta": "Vocês trazem o que está no meu sistema antigo?",
+        "resposta": "Com honestidade: nunca fizemos essa passagem para nenhuma clínica. Existe um importador de cadastro de tutores e pets, e combinamos o resto caso a caso. Não prometemos prazo para isso."
+      },
+      {
+        "pergunta": "Preciso de alguém de informática para usar?",
+        "resposta": "Não. O sistema abre no navegador, no computador da recepção ou no telefone. Não há programa para instalar nem servidor para cuidar na clínica."
+      }
+    ],
+    "h1": "A clínica pequena começa sem pagar nada",
+    "lede": "Com uma ou duas pessoas na clínica, dá para ter a ficha do pet, o prontuário e a fila de atendimento no mesmo lugar, sem mensalidade. Você contrata um módulo pago só quando aquele trabalho começar a pesar: a gente ativa, sem taxa e sem precisar trocar de sistema.",
+    "limites": "Não temos aplicativo publicado para iPhone ou Android: o sistema abre no navegador do computador e do telefone. Nunca migramos uma clínica de um sistema antigo — existe um importador de cadastro, e a passagem de dados é combinada caso a caso, sem prazo prometido. Não há máquina de cartão ligada ao caixa, os avisos por WhatsApp usam um canal não oficial e a nota fiscal de serviço depende do credenciamento da sua prefeitura.",
+    "metaDescricao": "Para clínicas de uma ou duas pessoas: comece sem pagar nada, com recepção, prontuário e cadastro de pets. Contrate cada módulo quando a necessidade chegar.",
+    "oQueEstaPronto": [
+      "No plano grátis: ficha do tutor e do pet, fila por setor, ordem de serviço numerada e prontuário com ditado por voz.",
+      "No plano grátis, o prontuário não muda depois de finalizado: a correção entra como adendo com data, nome e número de registro no CRMV.",
+      "No plano grátis, a guarda de cinco anos é garantida pelo próprio banco de dados, conforme a Resolução 1321/2020 do Conselho Federal de Medicina Veterinária (CFMV).",
+      "Carteira de vacinação digital que o tutor abre por um link, no telefone dele (plano pago, sem custo extra).",
+      "No plano pago, sem custo extra: triagem com peso e temperatura, caixa com conferência cega, vendas, estoque com lote e validade, entrada de compras pela nota do fornecedor e internação simples.",
+      "No plano pago: o crédito do tutor fica registrado e aparece no próximo atendimento do mesmo tutor, sem papel de controle."
+    ],
+    "preco": "O plano grátis é R$ 0, para duas pessoas, sem prazo e sem cartão. Planos fechados começam em R$ 189 por mês, e cada módulo extra tem o preço dele: avisos por WhatsApp R$ 19,90, banho e tosa R$ 49,90, relatórios da diretoria R$ 59,90, financeiro completo R$ 99,90.",
+    "slug": "clinica-pequena",
+    "tituloPagina": "Clínica veterinária pequena: comece no plano grátis",
+    "tipo": "perfil",
+    "titulo": "Clínica veterinária pequena"
+  },
+  {
+    "comoFunciona": [
+      {
+        "titulo": "A recepção abre a ficha uma vez",
+        "texto": "A recepção digita o nome do tutor e a ficha do pet abre. O atendimento entra na fila do setor certo e recebe uma ordem de serviço numerada. Consulta, banho e venda de balcão saem todos dessa mesma ficha."
+      },
+      {
+        "titulo": "A triagem registra peso e temperatura",
+        "texto": "Quem recebe o pet anota o peso e a temperatura antes da consulta. O sistema não deixa seguir sem esses dois. Quem está com as mãos ocupadas dita por voz em vez de digitar."
+      },
+      {
+        "titulo": "O médico veterinário dita e revisa",
+        "texto": "O prontuário é preenchido por voz durante o atendimento. A inteligência artificial só escreve o que foi falado, nunca sugere diagnóstico. O médico veterinário lê, corrige e finaliza."
+      },
+      {
+        "titulo": "A loja vende no mesmo caixa",
+        "texto": "Ração, antipulgas e acessório saem no caixa junto com a consulta. O produto baixa do estoque na hora, com lote, validade e aviso de ponto de reposição. O tutor paga tudo de uma vez."
+      },
+      {
+        "titulo": "Banho e tosa tem a própria agenda",
+        "texto": "O banho e a tosa entram em uma agenda separada, com o fluxo do serviço do recebimento à retirada. O tutor recebe o aviso e o lembrete por WhatsApp."
+      },
+      {
+        "titulo": "O caixa fecha com conferência às cegas",
+        "texto": "No fim do dia, quem fecha conta o dinheiro e digita o valor contado antes de ver o esperado. Só depois o sistema mostra a diferença. A entrada da nota do fornecedor alimenta o estoque e as contas a pagar."
+      }
+    ],
+    "ctaTexto": "Comece pelo lado clínico, no plano gratuito, sem cartão e sem prazo.",
+    "dor": "O dia é dividido entre duas telas. O sistema clínico guarda a consulta, a vacina e a receita. O sistema do administrativo cuida da nota da loja, da retirada, do fechamento e da sangria. A ração sai no balcão em um lugar, o atendimento do mesmo pet fica no outro, e no fim do mês ninguém consegue somar os dois para saber de onde veio o resultado. O banho e a tosa ficam no caderno ou no WhatsApp, e o lembrete do próximo banho sai à mão, quando dá tempo. O estoque é conferido no olho: a falta aparece quando o produto já acabou. E o fornecedor do administrativo é da cidade, atende rápido quando chama. Trocar tudo de uma vez não está na mesa.",
+    "faq": [
+      {
+        "pergunta": "Preciso trocar o sistema que emite a nota da loja?",
+        "resposta": "Não. Ele continua emitindo a nota de venda dos produtos, como hoje. Você usa o SYSVETMAX para o atendimento, o estoque, o banho e tosa e o caixa. A emissão da nota de venda da loja não é nossa. O que emitimos é a nota fiscal de serviço, e ela depende do credenciamento da sua prefeitura e da senha de emissão no nome da clínica."
+      },
+      {
+        "pergunta": "Dá para usar um CNPJ só para a clínica e a loja?",
+        "resposta": "Sim. Um CNPJ único é o caso mais comum. Se um dia a operação se dividir, o sistema também trabalha com mais de um CNPJ e com empresas faturantes separadas."
+      },
+      {
+        "pergunta": "Quantas pessoas podem usar ao mesmo tempo?",
+        "resposta": "O preço é por módulo, não por pessoa logada. Você não paga mais caro porque a recepção, o consultório e o banho e tosa estão abertos juntos. O plano gratuito vem com dois usuários."
+      },
+      {
+        "pergunta": "A venda de ração no balcão baixa do estoque?",
+        "resposta": "Sim. A venda tira o produto do estoque na hora. O estoque controla lote, validade e ponto de reposição, e avisa quando o item chega no mínimo. A entrada da mercadoria é feita pela nota do fornecedor, que também gera a conta a pagar."
+      },
+      {
+        "pergunta": "Vocês passam os dados do meu sistema atual para o novo?",
+        "resposta": "Com honestidade: ainda não fizemos nenhuma migração de sistema antigo. Existe um importador de cadastro de tutores e pets e o banco já está preparado para receber, mas não temos prática comprovada nisso e não prometemos prazo. O caminho que já funcionou foi começar pelos atendimentos novos e trazer o cadastro aos poucos."
+      }
+    ],
+    "h1": "A clínica, a loja e o banho e tosa no mesmo sistema",
+    "lede": "O atendimento, a venda de balcão e o banho e tosa passam a sair da mesma ficha do pet, com um CNPJ só. Você começa pelo lado clínico e mantém o sistema que emite a nota da loja como está.",
+    "limites": "A nota de venda dos produtos da loja não é emitida por nós: esse sistema fica como está. Nós emitimos a nota fiscal de serviço, e ela só funciona depois do credenciamento da prefeitura e com a senha de emissão no nome da clínica. Não temos maquininha ligada ao caixa, nem aplicativo para celular publicado, e a cópia da sua base é entregue em arquivo aberto quando você pedir, não por um botão dentro do sistema.",
+    "metaDescricao": "Clínica, loja, banho e tosa e caixa no mesmo sistema, com um CNPJ só. Comece de graça pelo atendimento e contrate o caixa e o banho e tosa quando quiser.",
+    "oQueEstaPronto": [
+      "Recepção com fila por setor e ordem de serviço numerada, e a mesma ficha de tutor e pet servindo a clínica e a loja.",
+      "Prontuário com ditado por voz, revisão do médico veterinário antes de fechar e correção só por adendo datado com nome e CRMV.",
+      "Caixa com conferência às cegas, crédito e adiantamento do tutor, e venda de balcão que baixa do estoque na hora.",
+      "Estoque com lote, validade e ponto de reposição, alimentado pela entrada da nota do fornecedor, que já gera a conta a pagar.",
+      "Banho e tosa com agenda e fluxo próprios, mais avisos e lembretes por WhatsApp para o tutor.",
+      "Livro de controlados digital por substância, pronto para imprimir na fiscalização, e receituário azul automático."
+    ],
+    "preco": "O começo é no plano gratuito: recepção, cadastro de tutores e pets, consultório e gestão, com dois usuários, sem prazo e sem cartão. Em plano pago, triagem, estoque, caixa e entrada da nota do fornecedor não custam a mais; banho e tosa sai por R$ 49,90 por mês, avisos por WhatsApp por R$ 19,90 e o financeiro completo por R$ 99,90. Planos fechados a partir de R$ 189 por mês, cobrados por módulo e não por pessoa logada.",
+    "slug": "clinica-com-petshop",
+    "tituloPagina": "Sistema para clínica veterinária com pet shop",
+    "tipo": "perfil",
+    "titulo": "Clínica com pet shop"
+  },
+  {
+    "comoFunciona": [
+      {
+        "titulo": "A recepção recebe e já numera o atendimento",
+        "texto": "A recepção digita o nome do tutor e a ficha do pet abre. O atendimento recebe um número e entra na fila do setor certo: consultório, internação, exame ou cirurgia. Quem está no plantão vê a fila sem precisar perguntar."
+      },
+      {
+        "titulo": "A triagem registra peso e temperatura antes de seguir",
+        "texto": "O auxiliar veterinário pesa o animal e mede a temperatura. O sistema não deixa seguir sem esses dois dados. Quem está com a mão ocupada dita pelo microfone e o texto entra na ficha."
+      },
+      {
+        "titulo": "O médico veterinário dita o atendimento e fecha a ficha",
+        "texto": "O médico veterinário fala e o sistema escreve. A inteligência artificial só transcreve o que foi dito: ela nunca sugere diagnóstico nem conduta. Ao finalizar, a ficha fecha. Correção depois disso só entra como adendo, com data, nome e CRMV de quem escreveu."
+      },
+      {
+        "titulo": "A internação e o centro cirúrgico ficam no mesmo quadro",
+        "texto": "O animal internado aparece num quadro com a prescrição do dia. A equipe lança sinais vitais e fluidoterapia na hora em que faz. Na cirurgia, a ficha anestésica é preenchida na mesma tela do caso."
+      },
+      {
+        "titulo": "A troca de plantão lê o que já foi feito",
+        "texto": "Quem entra às 19h ou às 2h abre o quadro de internados. Vê a última prescrição, o que foi administrado e quem administrou. O que precisa ser combinado por escrito vai no chat interno, dentro do caso do animal."
+      },
+      {
+        "titulo": "Cada turno fecha o próprio caixa",
+        "texto": "Quem fecha o caixa digita primeiro quanto contou na gaveta. Só depois o sistema mostra quanto esperava. A diferença, se houver, fica registrada com o nome de quem fechou e o horário."
+      }
+    ],
+    "ctaTexto": "Comece pelo plano gratuito e teste com a sua própria equipe, sem cartão e sem prazo.",
+    "dor": "Num hospital que não fecha, a informação passa de mão em mão a cada poucas horas. O caderno de plantão fica no balcão, a lista de internados está no quadro branco, a prescrição está num papel preso na gaiola e o resto combina-se no grupo do WhatsApp. Às 7h da manhã, o médico veterinário que assume precisa reconstruir a noite perguntando para quem está saindo. Quando o movimento aperta, três ou quatro pessoas precisam do mesmo cadastro no mesmo minuto: a recepção, a triagem, quem está na internação e quem está no caixa. Em muitos sistemas, o número de acessos contratados é que decide quem espera.",
+    "faq": [
+      {
+        "pergunta": "Quantas pessoas da equipe podem usar o sistema ao mesmo tempo?",
+        "resposta": "O preço é por módulo, não por pessoa que entra no sistema. Você contrata internação completa e centro cirúrgico, financeiro, exames — e a equipe do plantão usa o que foi contratado. O plano gratuito é a exceção: ele atende 2 pessoas e não tem caixa, então uma operação de 24 horas precisa de um plano pago."
+      },
+      {
+        "pergunta": "O plantão da madrugada consegue registrar o que fez sem mexer no prontuário do dia?",
+        "resposta": "Sim. Prontuário finalizado não é reescrito. Quem precisa complementar ou corrigir lança um adendo, com data, nome e CRMV. O texto anterior continua lá. Isso atende a Resolução 1321/2020 do Conselho Federal de Medicina Veterinária (CFMV) e também protege a equipe quando alguém pergunta, meses depois, quem escreveu o quê."
+      },
+      {
+        "pergunta": "Dá para ver os sinais vitais e a fluidoterapia do turno anterior?",
+        "resposta": "Dá. O módulo de internação completa e centro cirúrgico guarda os sinais vitais lançados, o controle de fluidoterapia e a ficha anestésica. Tudo com horário e com o nome de quem lançou. Quem assume o plantão abre o quadro de internados e lê."
+      },
+      {
+        "pergunta": "Precisa instalar em cada computador do hospital?",
+        "resposta": "Não. O sistema roda no navegador, no computador da recepção, no tablet da internação ou no celular. Não temos aplicativo publicado nas lojas da Apple e do Google: o acesso é pelo navegador."
+      },
+      {
+        "pergunta": "O livro de medicamentos controlados serve para a fiscalização?",
+        "resposta": "O livro de controlados é digital, separado por substância, e sai pronto para imprimir. O receituário azul é gerado automaticamente quando o medicamento exige. Assim o plantão da noite não deixa lançamento para alguém acertar no dia seguinte."
+      }
+    ],
+    "h1": "Sistema para hospital veterinário 24 horas",
+    "lede": "Quem assume o plantão da madrugada abre o quadro de internados e vê o que já foi feito. A prescrição, os sinais vitais lançados e o nome de quem lançou.",
+    "limites": "Não temos maquininha de cartão integrada ao caixa, nem painel de chamada para televisão na sala de espera, nem aplicativo publicado nas lojas da Apple e do Google. Os avisos por WhatsApp saem por um canal não oficial, não homologado pela plataforma. E nunca migramos a base de um sistema antigo para o nosso: temos importador de cadastro de tutores e pets, e fazemos esse trabalho junto com você, mas não prometemos prazo que ainda não cumprimos.",
+    "metaDescricao": "Plantão, internação e centro cirúrgico no mesmo sistema. A equipe toda usa ao mesmo tempo e você paga por módulo, não por pessoa que entra. Comece grátis.",
+    "oQueEstaPronto": [
+      "Quadro de internados com prescrição, sinais vitais, controle de fluidoterapia e ficha anestésica do centro cirúrgico.",
+      "Prontuário fechado não é reescrito: correção entra como adendo, com data, nome e CRMV de quem escreveu.",
+      "Fila por setor com atendimento numerado, para que recepção, triagem, internação e cirurgia vejam a mesma ordem.",
+      "Chat interno amarrado ao caso do animal, para o que precisa ficar por escrito na troca de plantão.",
+      "Caixa em que quem fecha digita o valor contado antes de ver o valor esperado, turno por turno.",
+      "Livro de medicamentos controlados por substância, pronto para imprimir, e receituário azul automático."
+    ],
+    "preco": "A recepção, o cadastro de tutores e pets, o consultório e a gestão estão no plano gratuito, de R$ 0 e sem prazo, limitado a 2 pessoas e sem caixa. Em plano pago, triagem, estoque, caixa, compras pela nota do fornecedor e internação simples não custam nada a mais; internação completa e centro cirúrgico sai por R$ 59,90 por mês, chat interno por R$ 49,90, financeiro completo por R$ 99,90 e exames e laudos por R$ 159,90. Planos fechados a partir de R$ 189 por mês — e o valor é por módulo, não por pessoa que entra no sistema.",
+    "slug": "hospital-24h",
+    "tituloPagina": "Sistema para hospital veterinário 24 horas",
+    "tipo": "perfil",
+    "titulo": "Hospital veterinário 24h"
+  },
+  {
+    "comoFunciona": [
+      {
+        "titulo": "A clínica que encaminha manda o pedido",
+        "texto": "A recepção cadastra o tutor e o pet, anota qual clínica e qual médico veterinário encaminharam, e abre uma ordem de serviço numerada. Cada setor vê na própria fila o que chegou para ele."
+      },
+      {
+        "titulo": "Cada exame vira um pedido com dono",
+        "texto": "O pedido fica aberto no setor até alguém lançar o resultado. O laudo é escrito e assinado com nome e CRMV de quem assinou. Depois de finalizado, ninguém mais altera o texto: só entra adendo, com data e nome."
+      },
+      {
+        "titulo": "O laudo sai e pode ser conferido",
+        "texto": "O laudo vai para o tutor ou para a clínica que encaminhou pelo WhatsApp. Cada laudo carrega um código de autenticidade: quem recebeu confere na hora se aquele documento é o que o seu setor emitiu."
+      },
+      {
+        "titulo": "O caixa fecha com conferência cega",
+        "texto": "Quem fecha o caixa digita primeiro o que contou em dinheiro. Só depois a tela mostra o que o sistema esperava. A diferença aparece sozinha, no dia, e não duas semanas depois."
+      },
+      {
+        "titulo": "A conferência de cartão passa a ser arquivo",
+        "texto": "Você baixa o arquivo da sua máquina de cartão e sobe no sistema. Ele cruza número da transação, valor e parcela com as vendas do setor. O que casou fica verde; o que sobrou fica numa lista curta para olho humano."
+      },
+      {
+        "titulo": "Cada CNPJ emite a sua nota",
+        "texto": "Você troca de empresa dentro do mesmo sistema, sem sair e entrar de novo. Cada empresa tem o seu caixa, as suas notas de serviço e os seus números. O crédito que o tutor deixou adiantado fica registrado no nome dele."
+      }
+    ],
+    "ctaTexto": "Crie a conta e monte um setor seu — imagem ou laboratório — com os exames que você faz hoje.",
+    "dor": "Hoje o pedido de encaminhamento chega em papel e vai para o escaninho de cada setor, com um aviso de boca. O resultado é digitado valor por valor. O laudo é assinado, salvo numa pasta e enviado à mão. No administrativo, o movimento de um mês vira centenas de lançamentos para conferir. São três máquinas de cartão, uma por setor, e quando um recebimento entra na máquina da empresa errada começa a caça ao lançamento. Uma rodada de conferência de cartão, mesmo com quase tudo certo, ocupa de uma a duas semanas entre as outras tarefas. A emissão das notas de serviço come manhãs inteiras, e no fim do mês várias saem agrupadas numa só.",
+    "faq": [
+      {
+        "pergunta": "O sistema conversa com os nossos aparelhos de laboratório e com a nuvem onde ficam as imagens?",
+        "resposta": "Ainda não. Hoje o resultado do aparelho é digitado no pedido, e a imagem continua onde ela já está. Ler o aparelho direto e buscar a imagem na nuvem são dois trabalhos que estamos levantando com o centro de diagnóstico que já é nosso cliente, não coisas que entregamos hoje. Se isso é condição para você, converse com a gente antes de decidir."
+      },
+      {
+        "pergunta": "Temos três CNPJs. Dá para trabalhar nos três sem três sistemas?",
+        "resposta": "Sim. Você troca de empresa dentro do mesmo sistema. Cada CNPJ tem o seu caixa, o seu estoque, as suas notas de serviço e os seus números. O que não existe hoje é uma tela única somando os três de uma vez: você olha empresa por empresa."
+      },
+      {
+        "pergunta": "A clínica que encaminhou o caso consegue saber se o laudo é verdadeiro?",
+        "resposta": "Sim. Cada laudo sai com um código de autenticidade. Quem recebeu lê esse código e vê na hora se o documento confere com o que o seu setor emitiu, e quem assinou, com nome e CRMV. Isso não é assinatura com certificado digital do governo — essa nós não temos."
+      },
+      {
+        "pergunta": "Quanto tempo leva para conferir o cartão?",
+        "resposta": "Depende do volume, mas o trabalho muda de natureza. Em vez de olhar transação por transação, você sobe o arquivo da máquina de cartão e o sistema cruza número da transação, valor e parcela com as vendas. Sobra uma lista curta do que não casou. É nessa lista que entra o seu tempo."
+      },
+      {
+        "pergunta": "E o repasse para a clínica que encaminha o exame?",
+        "resposta": "Não existe no sistema hoje. Já nos pediram e está na nossa lista de conversa, mas não prometemos data. Preferimos dizer isso agora do que depois da assinatura."
+      }
+    ],
+    "h1": "Imagem, laboratório e mais de um CNPJ",
+    "lede": "A conferência do cartão passa a ser um arquivo que você sobe: o sistema cruza venda por venda e deixa na tela só a lista do que não casou. O laudo sai com o nome e o CRMV de quem assinou, e quem encaminhou o caso confere se é autêntico.",
+    "limites": "Duas coisas que um centro de diagnóstico pergunta logo ainda não estão prontas: ler o resultado direto do aparelho de laboratório e buscar a imagem na nuvem onde ela já está hoje. Estamos levantando as duas com o centro de diagnóstico que já é nosso cliente, e tratamos isso como conversa, não como entrega. Somos novos: hoje temos duas clínicas pagando, uma delas um grupo com três CNPJs, e duas no plano gratuito. A nota de serviço depende do credenciamento da sua prefeitura e de uma senha de emissão no nome da clínica, e cada CNPJ precisa do seu. Não fazemos assinatura com certificado digital do governo, não integramos máquina de cartão ao caixa e nunca migramos uma base de sistema antigo: existe importador de cadastro, e quem faria a sua seria a primeira.",
+    "metaDescricao": "Para quem tem imagem e laboratório próprios, recebe encaminhamento de outras clínicas e tem mais de um CNPJ. Conferência de cartão e de banco por arquivo.",
+    "oQueEstaPronto": [
+      "Pedido de exame, laudo escrito e assinado com nome e CRMV, e envio por WhatsApp para o tutor ou para a clínica que encaminhou.",
+      "Fila por setor e ordem de serviço numerada: cada setor vê na tela o que chegou para ele, sem escaninho e sem aviso de boca.",
+      "Laudo com código de autenticidade: quem recebe confere se o documento é o que a clínica emitiu.",
+      "Mais de um CNPJ no mesmo sistema, cada empresa com o seu caixa, o seu estoque e a sua nota de serviço.",
+      "Conferência de cartão pelo arquivo da sua máquina, cruzando número da transação, valor e parcela com as vendas.",
+      "Conferência do banco pelo extrato que você baixa no site do banco, no arquivo que o internet banking oferece para importação, e por ligação direta com o Sicoob."
+    ],
+    "preco": "O setor de exames e laudos custa R$ 159,90 por mês. O financeiro completo, onde ficam as conferências de cartão e de banco, custa R$ 99,90. A nota de serviço custa R$ 49,00. Recepção, cadastro, consultório e gestão são gratuitos, para dois usuários, sem prazo e sem cartão. Planos fechados começam em R$ 189 por mês, e o preço é por módulo — não por pessoa logada.",
+    "slug": "centro-de-diagnostico",
+    "tituloPagina": "Sistema para centro de diagnóstico veterinário",
+    "tipo": "perfil",
+    "titulo": "Centro de diagnóstico veterinário"
+  },
+  {
+    "tituloPagina": "Sistema para laboratório veterinário — pedido e laudo",
+    "metaDescricao": "Pedido de exame, fila por setor e laudo com código de verificação no módulo de exames e laudos, R$ 159,90 por mês. Recepção, cadastro e consultório você usa de graça.",
+    "h1": "O laboratório, do pedido à entrega do laudo",
+    "lede": "O pedido chega com número e cada setor vê só o que é dele. O laudo sai com o nome e o CRMV de quem assinou, e vai por WhatsApp para o médico veterinário que pediu o exame.",
+    "dor": "Hoje o pedido vira papel. A folha vai para o escaninho do setor e alguém avisa de viva voz. O tubo segue com a etiqueta para a bancada. Os valores do aparelho são digitados um a um. O laudo fica pronto e espera a assinatura. Depois começa a segunda parte do trabalho: achar o telefone da clínica que encaminhou, mandar o arquivo, anotar que mandou. Quando o médico veterinário liga perguntando do resultado, alguém abre a pasta e procura. E no fim do mês, para saber quantos exames saíram de cada setor, só contando à mão.",
+    "comoFunciona": [
+      {
+        "titulo": "A recepção abre o pedido",
+        "texto": "A recepção digita o tutor e o pet e marca os exames. O sistema abre uma ordem de serviço com número, e esse número acompanha o caso até a entrega."
+      },
+      {
+        "titulo": "Cada setor vê a sua fila",
+        "texto": "Coleta, bancada e imagem têm fila própria na tela. Ninguém precisa levar papel ao escaninho nem avisar de viva voz: o pedido aparece no setor que tem de fazer."
+      },
+      {
+        "titulo": "O peso e a temperatura ficam registrados",
+        "texto": "Se o pet passa pela triagem antes da coleta, o sistema só deixa seguir com peso e temperatura preenchidos. Quem está com as mãos ocupadas pode ditar por voz."
+      },
+      {
+        "titulo": "A bancada lança o resultado",
+        "texto": "O médico veterinário escreve ou dita a parte descritiva, e os valores são lançados no pedido. Tudo fica junto do mesmo número de ordem de serviço."
+      },
+      {
+        "titulo": "O laudo fecha e trava",
+        "texto": "Ao finalizar, o laudo não muda mais. Se precisar corrigir, entra um adendo com data, nome e CRMV de quem corrigiu. O que foi dito antes continua visível."
+      },
+      {
+        "titulo": "A entrega e a conferência de quem recebe",
+        "texto": "O arquivo vai por WhatsApp para o tutor ou para o médico veterinário que pediu o exame. Na folha há um código e um QR: quem recebe confere se aquele laudo é o original."
+      }
+    ],
+    "oQueEstaPronto": [
+      "Pedido de exame, laudo e envio do arquivo por WhatsApp, com fila por setor e ordem de serviço numerada desde a chegada.",
+      "Laudo e prontuário travam quando são finalizados; correção só por adendo com data, nome e CRMV.",
+      "Os registros ficam guardados por cinco anos pelo próprio banco de dados, como pede a Resolução 1321/2020 do Conselho Federal de Medicina Veterinária (CFMV).",
+      "Código e QR em cada laudo, para quem recebe verificar se o documento é autêntico.",
+      "Estoque de reagente com lote, validade e ponto de reposição; a nota do fornecedor entra por arquivo e já alimenta estoque e contas a pagar.",
+      "Mais de um CNPJ na mesma operação, com empresas faturantes separadas, e conferência do extrato e do repasse do cartão, pelos arquivos que você baixa no site do banco e no site da empresa da maquininha (módulo Financeiro completo)."
+    ],
+    "limites": "Ligar o aparelho de análise ao sistema, para o resultado entrar sem digitação, ainda não existe: hoje os valores são lançados à mão. Estamos conversando com um laboratório cliente e com os representantes dos aparelhos, e só vamos anunciar quando funcionar. O laudo também não é assinado com certificado digital ICP-Brasil: ele sai com nome e CRMV, trava ao ser finalizado e traz o código de verificação. A nota fiscal de serviço depende do credenciamento da sua prefeitura e da senha de emissão no nome da clínica.",
+    "preco": "O módulo Exames e laudos custa R$ 159,90 por mês, e estoque e compras vêm sem custo extra no plano pago. A conferência de extrato bancário e de repasse de cartão fica no Financeiro completo, R$ 99,90 por mês. O preço é por módulo, não por pessoa logada, e planos fechados começam em R$ 189 por mês.",
+    "faq": [
+      {
+        "pergunta": "O resultado do aparelho de hematologia entra sozinho no sistema?",
+        "resposta": "Ainda não. Hoje alguém digita os valores no pedido. Estamos tratando disso com um laboratório cliente e com os representantes dos aparelhos. Preferimos dizer que não existe a prometer uma data."
+      },
+      {
+        "pergunta": "O laudo é assinado digitalmente?",
+        "resposta": "Não com certificado ICP-Brasil. O laudo sai com o nome e o CRMV do médico veterinário, trava quando é finalizado e só aceita correção por adendo datado. Cada folha tem um código e um QR, para quem recebe conferir se é o original."
+      },
+      {
+        "pergunta": "Como o médico veterinário que encaminhou recebe o resultado?",
+        "resposta": "A equipe envia o arquivo do laudo por WhatsApp, a partir do próprio pedido. O número da ordem de serviço vai junto. Quem liga perguntando do resultado é atendido por esse número, sem ninguém procurar em pasta."
+      },
+      {
+        "pergunta": "Tenho o laboratório num CNPJ e a clínica em outro. Dá para separar?",
+        "resposta": "Sim. O sistema trabalha com mais de um CNPJ e com empresas faturantes separadas. Cada unidade vê só os seus dados, e o faturamento sai pelo CNPJ certo."
+      },
+      {
+        "pergunta": "Posso começar sem pagar?",
+        "resposta": "Sim. O plano gratuito é R$0, com dois usuários, sem prazo e sem cartão. Ele traz recepção, cadastro de pets e tutores, consultório e gestão. Caixa e o módulo de exames e laudos são de plano pago."
+      }
+    ],
+    "ctaTexto": "Crie a conta, abra um pedido de exame de teste e veja o laudo sair com o código de verificação.",
+    "slug": "laboratorio",
+    "tipo": "perfil",
+    "titulo": "Laboratório veterinário"
+  }
+]

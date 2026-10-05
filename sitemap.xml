@@ -1,9 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://sysmaxsolutions.com/</loc>
-    <lastmod>2026-10-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
+  <url><loc>https://sysmaxsolutions.com/</loc><changefreq>monthly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://sysmaxsolutions.com/modulos</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://sysmaxsolutions.com/para</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://sysmaxsolutions.com/modulos/prontuario-eletronico</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://sysmaxsolutions.com/modulos/agenda-e-whatsapp</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://sysmaxsolutions.com/modulos/caixa</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://sysmaxsolutions.com/modulos/estoque-e-validade</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://sysmaxsolutions.com/modulos/compras-e-nota-do-fornecedor</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://sysmaxsolutions.com/modulos/livro-de-controlados</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://sysmaxsolutions.com/modulos/conferencia-de-cartao-e-banco</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://sysmaxsolutions.com/modulos/nota-fiscal-de-servico</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://sysmaxsolutions.com/modulos/exames-e-laudos</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://sysmaxsolutions.com/modulos/internacao-e-centro-cirurgico</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://sysmaxsolutions.com/para/clinica-pequena</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://sysmaxsolutions.com/para/clinica-com-petshop</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://sysmaxsolutions.com/para/hospital-24h</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://sysmaxsolutions.com/para/centro-de-diagnostico</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://sysmaxsolutions.com/para/laboratorio</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
 </urlset>

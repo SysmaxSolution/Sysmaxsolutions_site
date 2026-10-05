@@ -1,3 +1,38 @@
+/* Fontes locais — tiram o Google Fonts do caminho critico.
+   Sao arquivos variaveis: um por familia e subset, com faixa de peso. */
+@font-face {
+  font-family: 'Hanken Grotesk';
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url('/assets/fonts/hanken-grotesk-latin.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Hanken Grotesk';
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url('/assets/fonts/hanken-grotesk-latin-ext.woff2') format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: 'Spline Sans Mono';
+  font-style: normal;
+  font-weight: 300 700;
+  font-display: swap;
+  src: url('/assets/fonts/spline-sans-mono-latin.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Spline Sans Mono';
+  font-style: normal;
+  font-weight: 300 700;
+  font-display: swap;
+  src: url('/assets/fonts/spline-sans-mono-latin-ext.woff2') format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
 /* ==========================================================================
    Sysmax Software — sistema visual do site
    Herda o design system do produto ("Clínico Moderno v7"):
@@ -281,6 +316,48 @@ p { margin: 0; text-wrap: pretty; }
 .panel[data-active="true"] { display: grid; gap: 20px; }
 .panel__cap { display: grid; gap: 6px; max-width: 64ch; }
 
+/* --- páginas internas (módulo e perfil) --------------------------------- */
+.hero--interna { display: grid; gap: var(--s5); padding-block: clamp(28px, 4vw, 48px) clamp(40px, 5vw, 64px); }
+.hero--interna .display { max-width: 18ch; }
+.hero--interna .lede { max-width: 60ch; }
+
+.migalha { font-size: .8125rem; color: var(--faint); display: flex; gap: 8px; flex-wrap: wrap; }
+.migalha a { color: var(--muted); text-decoration: none; }
+.migalha a:hover { color: var(--brand-deep); text-decoration: underline; }
+
+/* numeração só porque isto É uma sequência: o passo a passo do atendimento */
+.passos { list-style: none; counter-reset: p; margin: 0; padding: 0; display: grid; gap: var(--s5); }
+@media (min-width: 760px) { .passos { grid-template-columns: repeat(2, 1fr); gap: var(--s6) var(--s7); } }
+.passos li { counter-increment: p; display: grid; gap: var(--s2); padding-left: 44px; position: relative; }
+.passos li::before {
+  content: counter(p); position: absolute; left: 0; top: 1px;
+  width: 28px; height: 28px; border-radius: 50%;
+  display: grid; place-items: center;
+  background: var(--brand-wash); color: var(--brand-ink);
+  font-size: .8125rem; font-weight: 600; font-variant-numeric: tabular-nums;
+}
+
+.h2.solo { margin-bottom: var(--s5); max-width: 26ch; }
+
+.dupla { display: grid; gap: var(--s6); }
+@media (min-width: 820px) { .dupla { grid-template-columns: minmax(0, 1.1fr) minmax(0, .9fr); gap: var(--s7); } }
+.dupla .h2 { margin-bottom: var(--s4); }
+
+/* a caixa de limites é o que diferencia o site: honestidade com destaque */
+.limites { border-left: 3px solid var(--amber); background: var(--surface); }
+
+.indice { display: grid; gap: var(--s4); }
+@media (min-width: 700px)  { .indice { grid-template-columns: repeat(2, 1fr); } }
+@media (min-width: 1000px) { .indice { grid-template-columns: repeat(3, 1fr); } }
+.indice__item {
+  display: grid; gap: var(--s2); align-content: start; text-decoration: none;
+  border: 1px solid var(--line); border-radius: var(--r-md);
+  background: var(--surface); padding: var(--s5);
+  transition: border-color 140ms var(--swift), transform 140ms var(--swift);
+}
+.indice__item:hover { border-color: var(--brand); transform: translateY(-2px); }
+.indice__item .h3 { color: var(--ink); }
+
 /* --- gravações da rotina ------------------------------------------------ */
 .clips { display: grid; gap: var(--s5); }
 @media (min-width: 820px) { .clips { grid-template-columns: repeat(2, 1fr); } }
@@ -365,6 +442,20 @@ input[type="range"]::-moz-range-thumb {
 }
 .result { border: 1px solid var(--line); border-radius: var(--r-md); padding: 28px; background: var(--sunken); display: grid; gap: 8px; align-content: start; }
 .result__value { font-size: clamp(2.2rem, 5vw, 3rem); font-weight: 800; letter-spacing: -.03em; line-height: 1; color: var(--brand-ink); }
+
+/* --- depoimento assinado (ver conteudo/DEPOIMENTOS.md) ------------------ */
+.depoimentos { display: grid; gap: var(--s5); margin-top: var(--s6); }
+@media (min-width: 820px) { .depoimentos { grid-template-columns: repeat(2, 1fr); } }
+.depoimento {
+  border: 1px solid var(--line); border-radius: var(--r-md);
+  background: var(--surface); padding: var(--s5); display: grid; gap: var(--s4);
+}
+.depoimento blockquote { margin: 0; font-size: 1.0625rem; color: var(--ink-soft); }
+.depoimento figcaption { display: flex; align-items: center; gap: var(--s3); }
+.depoimento img { width: 44px; height: 44px; border-radius: 50%; object-fit: cover; flex: none; }
+.depoimento .quem { font-size: .875rem; }
+.depoimento .quem strong { display: block; color: var(--ink); }
+.depoimento .quem span { color: var(--faint); }
 
 /* --- FAQ ---------------------------------------------------------------- */
 .faq { display: grid; gap: 0; border-top: 1px solid var(--line); }
