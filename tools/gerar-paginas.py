@@ -30,7 +30,7 @@ def carregar_moldura():
     cab = fatia(idx, '<header class="site-header">', '</header>')
     rod = fatia(idx, '<footer class="site-footer">', '</footer>')
     # na home os links de secao sao ancoras; fora dela precisam apontar para a home
-    for ancora in ['#caminho', '#produto', '#preco', '#dados', '#duvidas', '#rotina']:
+    for ancora in ['#caminho', '#produto', '#preco', '#dados', '#duvidas', '#rotina', '#demonstracao']:
         cab = cab.replace('href="%s"' % ancora, 'href="/%s"' % ancora)
         rod = rod.replace('href="%s"' % ancora, 'href="/%s"' % ancora)
     return cab, rod
@@ -116,7 +116,7 @@ PAGINA = """<!doctype html>
 
 <link rel="preload" as="font" type="font/woff2" href="/assets/fonts/hanken-grotesk-latin.woff2" crossorigin>
 <link rel="preload" as="font" type="font/woff2" href="/assets/fonts/spline-sans-mono-latin.woff2" crossorigin>
-<link rel="stylesheet" href="/styles/site.css">
+<link rel="stylesheet" href="/styles/site.css?v=20261007">
 </head>
 <body>
 
@@ -204,7 +204,7 @@ PAGINA = """<!doctype html>
 {jsonld}
 
 <script defer src="/_vercel/insights/script.js"></script>
-<script src="/scripts/site.js" defer></script>
+<script src="/scripts/site.js?v=20261007" defer></script>
 </body>
 </html>
 """
@@ -227,7 +227,7 @@ HUB = """<!doctype html>
 <meta property="og:description" content="{meta}">
 <meta property="og:image" content="{site}/og-image.png">
 <link rel="preload" as="font" type="font/woff2" href="/assets/fonts/hanken-grotesk-latin.woff2" crossorigin>
-<link rel="stylesheet" href="/styles/site.css">
+<link rel="stylesheet" href="/styles/site.css?v=20261007">
 </head>
 <body>
 <a class="skip" href="#conteudo">Ir para o conteúdo</a>
@@ -246,7 +246,7 @@ HUB = """<!doctype html>
 </main>
 {rodape}
 <script defer src="/_vercel/insights/script.js"></script>
-<script src="/scripts/site.js" defer></script>
+<script src="/scripts/site.js?v=20261007" defer></script>
 </body>
 </html>
 """
