@@ -542,6 +542,40 @@ dialog.lightbox img { border-radius: var(--r-md); width: 100%; }
   color: #fff; font-size: .9375rem; cursor: pointer; padding: 10px 14px; min-height: 44px;
 }
 
+/* --- pedido de demonstração --------------------------------------------- */
+.demo { display: grid; gap: clamp(28px, 4vw, 48px); align-items: start; }
+@media (min-width: 880px) { .demo { grid-template-columns: minmax(0, .9fr) minmax(0, 1fr); } }
+.demo__intro { display: grid; gap: var(--s4); }
+.demo__intro .h2 { max-width: 18ch; }
+.demo__card { border: 1px solid var(--line); border-radius: var(--r-md); padding: clamp(20px, 3vw, 32px); background: var(--sunken); }
+.demo .field input[type="text"],
+.demo .field input[type="tel"],
+.demo .field input[type="email"] {
+  width: 100%; min-height: 48px; padding: 11px 14px;
+  font: inherit; font-size: 1rem; color: var(--ink);   /* 16px: o iOS não dá zoom ao focar */
+  background: var(--surface); border: 1px solid #CBD5E1; border-radius: var(--r-sm);
+  transition: border-color 140ms var(--swift);
+}
+.demo .field input:hover { border-color: var(--faint); }
+.demo .field input[aria-invalid="true"] { border-color: #B91C1C; }
+.field__opc { font-weight: 400; color: var(--muted); }
+.field__erro { margin: 0; font-size: .875rem; color: #B91C1C; font-weight: 500; }
+.field--check { margin-bottom: 24px; }
+.check { display: flex; align-items: flex-start; gap: 12px; }
+.check input { flex: none; width: 22px; height: 22px; margin: 2px 0 0; accent-color: var(--brand-deep); cursor: pointer; }
+.check label { font-size: .9375rem; font-weight: 400; color: var(--ink-soft); cursor: pointer; }
+.check label a { color: var(--brand-deep); }
+.demo__isca { position: absolute; left: -9999px; width: 1px; height: 1px; overflow: hidden; }
+.demo__enviar { width: 100%; }
+.demo__enviar[disabled] { opacity: .65; cursor: progress; }
+.demo__status { margin-top: 14px; font-size: .9375rem; font-weight: 500; }
+.demo__status:empty { display: none; }
+.demo__status[data-tipo="erro"] { color: #B91C1C; }
+.demo__ok { display: grid; gap: var(--s3); }
+.demo__ok[hidden] { display: none; }
+.demo__ok { scroll-margin-top: 110px; }
+.demo__ok:focus { outline: none; }
+
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation-duration: .01ms !important; transition-duration: .01ms !important; }
 }

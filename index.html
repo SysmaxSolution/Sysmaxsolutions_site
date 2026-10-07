@@ -65,6 +65,7 @@
       <li><a href="#preco">Preço</a></li>
       <li><a href="#dados">Seus dados</a></li>
       <li><a href="#duvidas">Dúvidas</a></li>
+      <li><a href="#demonstracao">Pedir demonstração</a></li>
       <li><a class="btn btn--primary" href="https://sysvetmax.sysmaxsolutions.com" rel="noopener">Criar conta grátis</a></li>
     </ul>
   </div>
@@ -492,6 +493,68 @@
     </div>
   </section>
 
+  <!-- PEDIDO DE DEMONSTRACAO — envia para o agente comercial (POST /api/public/lead).
+       Quem responde e uma pessoa da equipe; nao ha mensagem automatica ao visitante. -->
+  <section class="section" id="demonstracao">
+    <div class="wrap">
+      <div class="demo">
+        <div class="demo__intro">
+          <h2 class="h2">Quero uma demonstração</h2>
+          <p class="body">Deixe o contato da clínica e uma pessoa da nossa equipe fala com você para mostrar o sistema com a rotina do seu dia a dia.</p>
+          <p class="small">Prefere falar agora? <a class="link" href="https://wa.me/5511937083389?text=Ol%C3%A1%21%20Vim%20pelo%20site%20e%20queria%20saber%20mais%20sobre%20o%20SYSVETMAX." target="_blank" rel="noopener" data-wa>Chame no WhatsApp</a>.</p>
+        </div>
+
+        <div class="demo__card">
+          <form id="demo-form" novalidate>
+            <div class="field">
+              <label for="d-nome">Seu nome</label>
+              <input id="d-nome" name="name" type="text" autocomplete="name" maxlength="120" required aria-describedby="d-nome-erro">
+              <p class="field__erro" id="d-nome-erro" hidden></p>
+            </div>
+            <div class="field">
+              <label for="d-fone">WhatsApp com DDD</label>
+              <input id="d-fone" name="phone" type="tel" inputmode="tel" autocomplete="tel-national" placeholder="(16) 99999-9999" maxlength="25" required aria-describedby="d-fone-erro">
+              <p class="field__erro" id="d-fone-erro" hidden></p>
+            </div>
+            <div class="field">
+              <label for="d-clinica">Nome da clínica</label>
+              <input id="d-clinica" name="clinic" type="text" autocomplete="organization" maxlength="160" required aria-describedby="d-clinica-erro">
+              <p class="field__erro" id="d-clinica-erro" hidden></p>
+            </div>
+            <div class="field">
+              <label for="d-email">E-mail <span class="field__opc">(opcional)</span></label>
+              <input id="d-email" name="email" type="email" inputmode="email" autocomplete="email" maxlength="160" aria-describedby="d-email-erro">
+              <p class="field__erro" id="d-email-erro" hidden></p>
+            </div>
+
+            <!-- isca para robôs: invisível e fora da ordem de tabulação; pessoa nunca preenche -->
+            <div class="demo__isca" aria-hidden="true">
+              <label for="d-site">Não preencha este campo</label>
+              <input id="d-site" name="website" type="text" tabindex="-1" autocomplete="off">
+            </div>
+
+            <div class="field field--check">
+              <div class="check">
+                <input id="d-aceite" name="consent" type="checkbox" aria-describedby="d-aceite-erro">
+                <label for="d-aceite">Concordo em ser contatado(a) pela Sysmax Software por WhatsApp, telefone ou e-mail sobre o SYSVETMAX. Veja como tratamos os dados na <a href="https://sysvetmax.sysmaxsolutions.com/privacidade" target="_blank" rel="noopener">política de privacidade</a>.</label>
+              </div>
+              <p class="field__erro" id="d-aceite-erro" hidden></p>
+            </div>
+
+            <button class="btn btn--primary btn--lg demo__enviar" type="submit" id="demo-enviar">Pedir demonstração</button>
+            <div class="demo__status" id="demo-status" role="status" aria-live="polite"></div>
+          </form>
+
+          <div class="demo__ok" id="demo-ok" tabindex="-1" hidden>
+            <h3 class="h3">Pedido recebido</h3>
+            <p class="body">Obrigado! Um consultor da Sysmax vai chamar você no WhatsApp para combinar a demonstração.</p>
+            <p class="small">Se quiser ir adiantando, o plano gratuito já abre o sistema: <a class="link" href="https://sysvetmax.sysmaxsolutions.com" rel="noopener">criar conta grátis</a>.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- CTA FINAL -->
   <section class="section section--ink section--close">
     <div class="wrap">
@@ -534,6 +597,7 @@
       <div>
         <h4>Falar com a gente</h4>
         <ul class="footer__links">
+          <li><a href="#demonstracao">Pedir uma demonstração</a></li>
           <li><a href="https://wa.me/5511937083389?text=Ol%C3%A1%21%20Vim%20pelo%20site%20e%20queria%20saber%20mais%20sobre%20o%20SYSVETMAX." target="_blank" rel="noopener" data-wa>WhatsApp comercial</a></li>
           <li><a href="mailto:contato@sysmaxsolutions.com">contato@sysmaxsolutions.com</a></li>
           <li><a href="https://sysvetmax.sysmaxsolutions.com/termos-de-uso" rel="noopener">Termos de uso</a></li>

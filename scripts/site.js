@@ -29,6 +29,37 @@
     return escolhido;
   }
 
+  /* ---------------------------------------------------------------------
+     Origem do visitante. Só lê ?ref= / ?utm_* do endereço (um link que a
+     equipe distribuiu) e guarda na aba, sem cookie, sem IP e sem impressão
+     digital do navegador. Serve para dizer à equipe de onde veio quem
+     chamou; quem apenas navega continua anônimo.
+     --------------------------------------------------------------------- */
+  function limparRef(v) {
+    return String(v || '').toLowerCase().replace(/[^a-z0-9_-]/g, '').slice(0, 40);
+  }
+
+  function origemDoVisitante() {
+    var novo = '';
+    try {
+      var q = new URLSearchParams(window.location.search);
+      novo = limparRef(q.get('ref'));
+      if (!novo) {
+        novo = limparRef(['utm_source', 'utm_medium', 'utm_campaign'].map(function (k) {
+          return limparRef(q.get(k));
+        }).filter(Boolean).join('-'));
+      }
+    } catch (e) { novo = ''; }
+
+    try {
+      if (novo) sessionStorage.setItem('sysmax:ref', novo);
+      return novo || limparRef(sessionStorage.getItem('sysmax:ref'));
+    } catch (e) { return novo; }
+  }
+
+  var REF = origemDoVisitante();
+  if (REF) SAUDACAO += ' (ref: ' + REF + ')';
+
   var linkWhats = 'https://wa.me/' + numeroDoVisitante() + '?text=' + encodeURIComponent(SAUDACAO);
   Array.prototype.forEach.call(document.querySelectorAll('[data-wa]'), function (a) {
     a.setAttribute('href', linkWhats);
@@ -225,6 +256,160 @@
         atualizarBotao()
       })
     }
+  }
+
+  /* --- pedido de demonstração -------------------------------------------
+     Envia para o agente comercial. Só segue com consentimento marcado, e o
+     campo "website" é a isca de robô (a pessoa nunca o vê). Ninguém recebe
+     mensagem automática: o contato é feito por uma pessoa da equipe.      */
+  var formDemo = document.getElementById('demo-form');
+
+  if (formDemo) {
+    var ENDPOINT_LEAD = 'https://sysmax-sales-agent.vercel.app/api/public/lead';
+    var EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/;
+    var botaoDemo = document.getElementById('demo-enviar');
+    var statusDemo = document.getElementById('demo-status');
+    var okDemo = document.getElementById('demo-ok');
+    var textoBotao = botaoDemo ? botaoDemo.textContent : 'Pedir demonstração';
+    var enviando = false;
+
+    var telefoneValido = function (bruto) {
+      var d = String(bruto || '').replace(/\D/g, '').replace(/^0+/, '');
+      if (d.length === 10 || d.length === 11) d = '55' + d;
+      if (d.indexOf('55') !== 0 || (d.length !== 12 && d.length !== 13)) return false;
+      var ddd = parseInt(d.slice(2, 4), 10);
+      return ddd >= 11 && ddd <= 99;
+    };
+
+    var regras = [
+      { id: 'd-nome', erro: 'd-nome-erro', msg: 'Informe seu nome.',
+        ok: function (el) { return el.value.trim().length >= 2; } },
+      { id: 'd-fone', erro: 'd-fone-erro', msg: 'Informe um WhatsApp com DDD, por exemplo (16) 99999-9999.',
+        ok: function (el) { return telefoneValido(el.value); } },
+      { id: 'd-clinica', erro: 'd-clinica-erro', msg: 'Informe o nome da clínica.',
+        ok: function (el) { return el.value.trim().length >= 2; } },
+      { id: 'd-email', erro: 'd-email-erro', msg: 'Esse e-mail parece incompleto. Confira ou deixe em branco.',
+        ok: function (el) { var v = el.value.trim(); return v === '' || EMAIL_RE.test(v); } },
+      { id: 'd-aceite', erro: 'd-aceite-erro', msg: 'Marque a caixa para a equipe poder entrar em contato.',
+        ok: function (el) { return el.checked; } }
+    ];
+
+    var marcarErro = function (regra, texto) {
+      var el = document.getElementById(regra.id);
+      var msg = document.getElementById(regra.erro);
+      if (!el || !msg) return;
+      el.setAttribute('aria-invalid', 'true');
+      msg.textContent = texto;
+      msg.hidden = false;
+    };
+
+    var limparErro = function (regra) {
+      var el = document.getElementById(regra.id);
+      var msg = document.getElementById(regra.erro);
+      if (el) el.removeAttribute('aria-invalid');
+      if (msg) { msg.textContent = ''; msg.hidden = true; }
+    };
+
+    regras.forEach(function (regra) {
+      var el = document.getElementById(regra.id);
+      if (el) el.addEventListener(regra.id === 'd-aceite' ? 'change' : 'input', function () { limparErro(regra); });
+    });
+
+    var mostrarStatus = function (texto, tipo, comWhats) {
+      if (!statusDemo) return;
+      statusDemo.textContent = texto;
+      if (tipo) statusDemo.setAttribute('data-tipo', tipo); else statusDemo.removeAttribute('data-tipo');
+      if (comWhats) {
+        var a = document.createElement('a');
+        a.className = 'link';
+        a.textContent = 'chame no WhatsApp';
+        a.setAttribute('href', linkWhats);
+        a.setAttribute('rel', 'noopener');
+        a.setAttribute('target', '_blank');
+        statusDemo.appendChild(document.createTextNode(' '));
+        statusDemo.appendChild(a);
+        statusDemo.appendChild(document.createTextNode('.'));
+      }
+    };
+
+    var terminarEnvio = function () {
+      enviando = false;
+      if (botaoDemo) { botaoDemo.disabled = false; botaoDemo.textContent = textoBotao; }
+    };
+
+    var enviarPedido = function () {
+      enviando = true;
+      if (botaoDemo) { botaoDemo.disabled = true; botaoDemo.textContent = 'Enviando…'; }
+      mostrarStatus('', null, false);
+
+      var corpo = {
+        name: document.getElementById('d-nome').value.trim(),
+        phone: document.getElementById('d-fone').value.trim(),
+        clinic: document.getElementById('d-clinica').value.trim(),
+        email: document.getElementById('d-email').value.trim(),
+        website: document.getElementById('d-site').value,
+        consent: true,
+        page: window.location.pathname
+      };
+      if (REF) corpo.ref = REF;
+
+      var ctrl = window.AbortController ? new AbortController() : null;
+      var limite = setTimeout(function () { if (ctrl) ctrl.abort(); }, 15000);
+
+      fetch(ENDPOINT_LEAD, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(corpo),
+        signal: ctrl ? ctrl.signal : undefined
+      }).then(function (r) {
+        return r.json().catch(function () { return {}; }).then(function (j) {
+          return { ok: r.ok && j.ok === true, status: r.status, erro: typeof j.error === 'string' ? j.error : '' };
+        });
+      }).then(function (res) {
+        clearTimeout(limite);
+        if (res.ok) {
+          formDemo.hidden = true;
+          if (okDemo) { okDemo.hidden = false; okDemo.focus(); }
+          return;
+        }
+        terminarEnvio();
+        // 400 traz a mensagem específica do campo; 429, 500 e o resto são limite, falha nossa ou de rede
+        if (res.status === 400 && res.erro) {
+          mostrarStatus(res.erro, 'erro', false);
+        } else if (res.status === 429) {
+          mostrarStatus('Muitos envios seguidos. Tente de novo mais tarde ou', 'erro', true);
+        } else {
+          mostrarStatus('Não foi possível enviar agora. Tente de novo em instantes ou', 'erro', true);
+        }
+      }).catch(function () {
+        clearTimeout(limite);
+        terminarEnvio();
+        mostrarStatus('Não conseguimos enviar. Confira a conexão e tente de novo, ou', 'erro', true);
+      });
+    };
+
+    formDemo.addEventListener('submit', function (e) {
+      e.preventDefault();
+      if (enviando) return;
+      mostrarStatus('', null, false);
+
+      var primeiro = null;
+      regras.forEach(function (regra) {
+        var el = document.getElementById(regra.id);
+        limparErro(regra);
+        if (el && !regra.ok(el)) {
+          marcarErro(regra, regra.msg);
+          if (!primeiro) primeiro = el;
+        }
+      });
+
+      if (primeiro) {
+        mostrarStatus('Confira os campos destacados.', 'erro', false);
+        primeiro.focus();
+        return;
+      }
+      enviarPedido();
+    });
   }
 
   /* --- ano do rodapé ---------------------------------------------------- */
